@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    >
+
+  <include package="z3c.jbot" />
+
+  <browser:jbot
+      directory="overrides"
+      layer="osha.oira.client.interfaces.IOSHAClientSkinLayer"
+      />
+
+</configure>

@@ -1,0 +1,43 @@
+# Translations template for osha.oira.
+# Copyright (C) 2011 Syslab.com, GmbH
+# This file is distributed under the same license as the osha.oira project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: osha.oira 0.21dev\n"
+"POT-Creation-Date: 2024-05-02 11:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"Language: de\n"
+"Generated-By: Babel 0.9.6\n"
+
+#. Default: "Als Führungskraft erhalten Sie eine E-Mail, wenn eine Gefährdungsbeurteilung seit 3 Jahren nicht bearbeitet (bzw. schreibgeschützt) wurde."
+#: dsetool/policy/manual_translations.py:25
+msgid "notification_description__ra_not_modified"
+msgstr "Als Führungskraft erhalten Sie eine E-Mail, wenn eine Gefährdungsbeurteilung seit 3 Jahren nicht bearbeitet (bzw. schreibgeschützt) wurde."
+
+#. Default: "Sie haben vor 3 Jahren Ihre Gefährdungsbeurteilung zuletzt bearbeitet (bzw. schreibgeschützt). Bitte denken Sie daran, Ihre Gefährdungsbeurteilung aktuell zu halten.\nMit dem folgenden Link gelangen Sie zur Gefährdungsbeurteilung."
+#: dsetool/policy/manual_translations.py:5
+msgid "notification_mail_body__ra_not_modified"
+msgstr "Sie haben vor 3 Jahren Ihre Gefährdungsbeurteilung zuletzt bearbeitet (bzw. schreibgeschützt). Bitte denken Sie daran, Ihre Gefährdungsbeurteilung aktuell zu halten.\nMit dem folgenden Link gelangen Sie zur Gefährdungsbeurteilung."
+
+#. Default: "OiRA: Erinnerung an Aktualisierung der Gefährdungsbeurteilung"
+#: dsetool/policy/manual_translations.py:14
+msgid "notification_mail_subject__ra_not_modified"
+msgstr "OiRA: Erinnerung an Aktualisierung der Gefährdungsbeurteilung"
+
+#. Default: "Aktualisierung der Gefährdungsbeurteilung"
+#: dsetool/policy/manual_translations.py:20
+msgid "notification_title__ra_not_modified"
+msgstr "Aktualisierung der Gefährdungsbeurteilung"
