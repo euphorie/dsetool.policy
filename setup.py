@@ -15,7 +15,7 @@ long_description = "\n\n".join(
 
 setup(
     name="dsetool.policy",
-    version="2.0.4.dev0",
+    version="1.0.0.dev0",
     description="DS eTool Policy package",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
@@ -50,7 +50,7 @@ setup(
     install_requires=[
         "setuptools",
         # -*- Extra requirements: -*-
-        "osha.oira >12.3.0",
+        "osha.oira",
         "z3c.jbot"
     ],
     extras_require={
