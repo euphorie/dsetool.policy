@@ -51,7 +51,7 @@ setup(
         "setuptools",
         # -*- Extra requirements: -*-
         "osha.oira",
-        "z3c.jbot"
+        "z3c.jbot",
     ],
     extras_require={
         "test": [
