@@ -6,8 +6,8 @@ from setuptools import setup
 
 long_description = "\n\n".join(
     [
-        open("README.rst").read(),
-        open("CHANGES.rst").read(),
+        open("README.md").read(),
+        open("CHANGES.md").read(),
     ]
 )
 
@@ -17,6 +17,7 @@ setup(
     version="1.0.0.dev0",
     description="DS eTool Policy package",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     # Get more from https://pypi.org/classifiers/
     classifiers=[
         "Environment :: Web Environment",

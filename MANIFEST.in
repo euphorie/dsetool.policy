@@ -1,4 +1,4 @@
-include *.rst
+include *.md
 include *.yaml
 recursive-include src *.py
 recursive-include src *.xml
