@@ -51,8 +51,9 @@ setup(
         "z3c.jbot",
     ],
     extras_require={
-        "test": [
+        "tests": [
             "plone.app.testing",
+            "plone.app.robotframework",
         ],
     },
     entry_points="""
