@@ -5,4 +5,5 @@ recursive-include src *.xml
 recursive-include src *.zcml
 recursive-include src *.po
 recursive-include src *.pot
+recursive-include src *.pt
 exclude Makefile
