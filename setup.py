@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """Installer for the dsetool.policy package."""
 
-from setuptools import find_packages
 from setuptools import setup
 
 
@@ -42,9 +41,6 @@ setup(
         "Tracker": "https://github.com/syslabcom/dsetool.policy/issues",
     },
     license="GPL version 2",
-    packages=find_packages("src", exclude=["ez_setup"]),
-    namespace_packages=["dsetool"],
-    package_dir={"": "src"},
     include_package_data=True,
     zip_safe=False,
     install_requires=[
