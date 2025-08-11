@@ -1,10 +1,13 @@
 """Setup tests for this package."""
 
 from dsetool.policy import testing
+from importlib import resource
 from plone import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
 from plone.base.utils import get_installer
+from zope.component import getMultiAdapter
+from zope.publisher.interfaces import IPublishTraverse
 
 import unittest
 
@@ -29,6 +32,19 @@ class TestSetup(unittest.TestCase):
         from plone.browserlayer import utils
 
         self.assertIn(interfaces.IDSEToolPolicyLayer, utils.registered_layers())
+
+    def test_jbot(self):
+        """Test that z3c.jbot is installed."""
+        request = self.layer["request"]
+
+        traverser = getMultiAdapter((self.portal.client, request), IPublishTraverse)
+        login_view = traverser.publishTraverse(request, "login")
+        self.assertEqual(
+            login_view.index.filename.endswith(
+                "dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt"  # noqa: E501
+            ),
+            True,
+        )
 
 
 class TestUninstall(unittest.TestCase):
