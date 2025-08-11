@@ -10,6 +10,35 @@ class HiddenProfiles(object):
             "dsetool.policy:uninstall",
         ]
 
+    def getNonInstallableProducts(self):
+        return [
+            "euphorie.deployment.upgrade",
+            "euphorie.deployment",
+            "euphorie.upgrade.content.v1",
+            "euphorie.upgrade.deployment.v1",
+            "euphorie.upgrade.deployment.v18",
+            "ftw.upgrade",
+            "osha.oira.upgrade.v1",
+            "osha.oira.upgrade.v12",
+            "osha.oira.upgrade",
+            "osha.oira",
+            "pas.plugins.ldap.plonecontrolpanel",
+            "plone.app.caching",
+            "plone.app.discussion",
+            "plone.app.imagecropping",
+            "plone.app.iterate",
+            "plone.app.multilingual",
+            "plone.formwidget.recaptcha",
+            "plone.patternslib",
+            "plone.restapi",
+            "plone.session",
+            "plone.volto",
+            "plonetheme.nuplone",
+            "Products.CMFPlacefulWorkflow",
+            "Products.membrane",
+            "yafowil.plone",
+        ]
+
 
 def post_install(context):
     """Post install script"""
