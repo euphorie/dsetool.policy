@@ -8,6 +8,8 @@
   <i18n:registerTranslations directory="locales" />
 
   <include package="osha.oira" />
+
+  <include package=".adapters" />
   <include package=".browser" />
 
   <genericsetup:registerProfile
@@ -28,10 +30,11 @@
       post_handler=".setuphandlers.post_uninstall"
       />
 
-
   <utility
       factory=".setuphandlers.HiddenProfiles"
       name="dsetool.policy-hiddenprofiles"
       />
+
+  <include package=".upgrades" />
 
 </configure>

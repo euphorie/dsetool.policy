@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 """Installer for the dsetool.policy package."""
 
-from setuptools import find_packages
 from setuptools import setup
 
 
 long_description = "\n\n".join(
     [
-        open("README.rst").read(),
-        open("CHANGES.rst").read(),
+        open("README.md").read(),
+        open("CHANGES.md").read(),
     ]
 )
 
@@ -18,6 +17,7 @@ setup(
     version="1.0.0.dev0",
     description="DS eTool Policy package",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     # Get more from https://pypi.org/classifiers/
     classifiers=[
         "Environment :: Web Environment",
@@ -42,20 +42,18 @@ setup(
         "Tracker": "https://github.com/syslabcom/dsetool.policy/issues",
     },
     license="GPL version 2",
-    packages=find_packages("src", exclude=["ez_setup"]),
-    namespace_packages=["dsetool"],
-    package_dir={"": "src"},
     include_package_data=True,
     zip_safe=False,
     install_requires=[
         "setuptools",
         # -*- Extra requirements: -*-
         "osha.oira",
-        "z3c.jbot"
+        "z3c.jbot",
     ],
     extras_require={
-        "test": [
+        "tests": [
             "plone.app.testing",
+            "plone.app.robotframework",
         ],
     },
     entry_points="""
