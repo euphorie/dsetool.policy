@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Euphorie dsetool.policy\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-12 12:11+0000\n"
-"PO-Revision-Date: 2016-07-28 15:10+0200\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: de\n"
+"POT-Creation-Date: 2025-08-12 12:18+0000\n"
+"PO-Revision-Date: 2015-02-10 11:55+0100\n"
+"Last-Translator: syslab.com GmbH <info@syslab.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,63 +15,62 @@ msgstr ""
 "Domain: euphorie\n"
 "Generated-By: Babel 0.9.6\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"X-Generator: Poedit 1.8.3\n"
 
 #. AI-generated
 #: euphorie/client/browser/webhelpers.py:1384
 msgid "Answered"
-msgstr "Beantwortet"
+msgstr "Svarað"
 
 #. AI-generated
 #: euphorie/content/profiles/default/types/euphorie.choice.xml
 #: euphorie/upgrade/content/v1/20250402124248_add_content_type__choice/types/euphorie.choice.xml
 msgid "Choice"
-msgstr "Auswahl"
+msgstr "Val"
 
 #. AI-generated
 #: euphorie/deployment/profiles/default/actions.xml
 #: euphorie/upgrade/deployment/v1/20250327125832_install_the_maintenance_actions/actions.xml
 msgid "Maintenance actions"
-msgstr "Wartungsarbeiten"
+msgstr "Viðhaldsverk"
 
 #. AI-generated
 #: euphorie/deployment/browser/sitemenu.py:92
 #: euphorie/deployment/browser/templates/maintenance.pt:12
 msgid "Maintenance view"
-msgstr "Wartungsansicht"
+msgstr "Viðhaldsyfirlit"
 
 #. AI-generated
 #: euphorie/client/browser/webhelpers.py:1383
 msgid "Not yet answered"
-msgstr "Noch nicht beantwortet"
+msgstr "Ekki ennþá svarað"
 
 #. AI-generated
 #: euphorie/client/browser/survey.py:95
 msgid "OiRA tool reminder"
-msgstr "OiRA Tool Erinnerung"
+msgstr "OiRA tól áminning"
 
 #. AI-generated
 #: euphorie/content/profiles/default/types/euphorie.option.xml
 #: euphorie/upgrade/content/v1/20250402124248_add_content_type__choice/types/euphorie.option.xml
 msgid "Option"
-msgstr "Option"
+msgstr "Valmöguleiki"
 
 #. AI-generated
 #: euphorie/content/profiles/default/types/euphorie.recommendation.xml
 msgid "Recommendation"
-msgstr "Empfehlung"
+msgstr "Mælum með"
 
 #. Default: "Option ${number}"
 #. AI-generated
 #: euphorie/content/browser/templates/choice_view.pt:55
 msgid "choice_option_header"
-msgstr "Option ${number}"
+msgstr "Valmöguleiki ${number}"
 
 #. Default: "Recommendation ${number}"
 #. AI-generated
 #: euphorie/content/browser/templates/option_view.pt:66
 msgid "choice_recommendation_header"
-msgstr "Empfehlung ${number}"
+msgstr "Mælum með ${number}"
 
 #. Default: "Please enter the completion percentage above which the report is
 #. available on this tool. The user will be unable to view or download a
@@ -81,11 +80,10 @@ msgstr "Empfehlung ${number}"
 #: euphorie/content/survey.py:151
 msgid "description_report_completion_threshold"
 msgstr ""
-"Bitte geben Sie den Fertigstellungsprozentsatz ein, ab dem der Bericht für "
-"dieses Tool verfügbar ist. Der Nutzer wird nicht in der Lage sein, einen "
-"Bericht zu betrachten oder herunterzuladen, bis die Bewertung bis zum "
-"angegebenen Prozentsatz abgeschlossen ist. Geben Sie “0” ein, um den Bericht"
-" immer verfügbar zu haben."
+"Vinsamlegast settu inn prósentuskor það hátt sem skýrslan er fengin á þessu "
+"tóli. Notandinn verður ómögulegt að skoða eða niðurhala skýrslu þangað til "
+"matið er klárað að tiltekinni prósentuskor. Settu inn “0” efðu vilt alltaf "
+"hafa skýrsluna aðgengilega."
 
 #. Default: "After the user has selected an option for a choice, show any
 #. associated recommendations before proceeding to the next choice"
@@ -93,8 +91,8 @@ msgstr ""
 #: euphorie/content/survey.py:235
 msgid "description_show_immediate_feedback"
 msgstr ""
-"Nachdem der Benutzer eine Option für eine Auswahl getroffen hat, zeigen Sie "
-"die zugehörigen Empfehlungen an, bevor Sie zur nächsten Auswahl übergehen"
+"Þegar notandinn hefur valið möguleika, sýndu mjög eftirræðilega ábendingar "
+"sem tengjast valinu áður en hann gengur framm í næsta val"
 
 #. Default: "If you would like to continue using this tool at a later point in
 #. time, we can send you a reminder email with a link to this assessment."
@@ -102,35 +100,33 @@ msgstr ""
 #: euphorie/client/browser/templates/email_reminder.pt:32
 msgid "email_reminder_intro"
 msgstr ""
-"Wenn Sie dieses Tool zu einem späteren Zeitpunkt weiterhin nutzen möchten, "
-"können wir Ihnen eine Erinnerungs-E-Mail mit einem Link zu dieser Bewertung "
-"senden."
+"Ef þú vilt halda áfram að nota þetta tól eftir minni stund, getum við sent "
+"þér áminningartölvupóst með slóð að þessu mati."
 
 #. Default: "This is your reminder to continue your assessment with the tool
 #. \"${tool_name}\":"
 #. AI-generated
 #: euphorie/client/browser/templates/email_reminder_body.pt:8
 msgid "email_reminder_main"
-msgstr ""
-"Dies ist Ihre Erinnerung daran, Ihre Bewertung mit dem Tool fortzusetzen \\"
+msgstr "Þetta er áminningin þín til að halda áfram matinu með tólinu \\"
 
 #. Default: "Email reminder"
 #. AI-generated
 #: euphorie/client/browser/templates/email_reminder.pt:31
 msgid "header_email_reminder"
-msgstr "E-Mail-Erinnerung"
+msgstr "Tölvupóstur sem áminning"
 
 #. Default: "Options"
 #. AI-generated
 #: euphorie/content/browser/templates/choice_view.pt:44
 msgid "header_options"
-msgstr "Optionen"
+msgstr "Valmöguleikar"
 
 #. Default: "Recommendations"
 #. AI-generated
 #: euphorie/content/browser/templates/option_view.pt:52
 msgid "header_recommendations"
-msgstr "Empfehlungen"
+msgstr "Mælum með"
 
 #. Default: "If active, checkboxes are shown to allow selecting more than one
 #. option. Otherwise, radio buttons are used to force a single selection."
@@ -138,15 +134,15 @@ msgstr "Empfehlungen"
 #: euphorie/content/choice.py:26
 msgid "help_allow_multiple_options"
 msgstr ""
-"Wenn sie aktiv sind, werden Checkboxen angezeigt, die ermöglichen, mehr als "
-"eine Option auszuwählen. Andernfalls werden Radiobuttons verwendet, um eine "
-"einzelne Auswahl zu erzwingen."
+"Ef þetta er virkt, eru gervigluggar sýndir til að leyfa að velja fleiri en "
+"einn möguleika. Annars eru útvarpsvalknappar notaðir til að aðeins leyfa "
+"eina völd."
 
 #. Default: "Offer to send an email reminder about this tool"
 #. AI-generated
 #: euphorie/content/survey.py:178
 msgid "help_enable_email_reminder"
-msgstr "Angebot, eine E-Mail-Erinnerung zu diesem Tool zu senden"
+msgstr "Bjóða að senda tölvupóst áminningu um þetta tól"
 
 #. Default: "The logo will appear on the sector overview page of your country.
 #. Make sure your image is of format png, jpg or gif and does not contain any
@@ -156,10 +152,10 @@ msgstr "Angebot, eine E-Mail-Erinnerung zu diesem Tool zu senden"
 #: euphorie/content/sector.py:72
 msgid "help_logo_upload"
 msgstr ""
-"Das Logo wird auf der Branchenübersichtsseite Ihres Landes erscheinen. "
-"Stellen Sie sicher, dass Ihr Bild im Format png, jpg oder gif vorliegt und "
-"keine Sonderzeichen enthält. Das neue Logo wird erst sichtbar, wenn Sie Ihre"
-" Änderungen gespeichert und das OiRA-Tool veröffentlicht haben."
+"Merkið mun birtast á yfirlitssíðunni yfir greinarnar í landi þínu. Gakktu úr"
+" skugga um að myndin þín sé í sniðinu png, jpg eða gif og innihaldi ekki "
+"nein sérstök tákn. Nýja merkið verður aðeins sýnilegt eftir að þú hefur "
+"vistað breytingarnar þínar og birt OiRA tólið."
 
 #. Default: "If this module is used as part of an inventory tool,
 #. thisrecommendation text will be used as in introduction in the reportbefore
@@ -168,15 +164,15 @@ msgstr ""
 #: euphorie/content/module.py:64
 msgid "help_module_recommendation"
 msgstr ""
-"Wenn dieses Modul als Teil eines Inventarisierungstools verwendet wird, wird"
-" dieser Empfehlungstext als Einleitung in den Bericht vor den individuellen "
-"Empfehlungen aufgeführt."
+"Ef þetta eining er notuð sem hluti af birgðatóli, verður þessi "
+"ábendingartexti notaður sem kynning í skýrslunni áður en einstakar "
+"ábendingar eru listar."
 
 #. Default: "Text to be included in the report"
 #. AI-generated
 #: euphorie/content/recommendation.py:13
 msgid "help_recommendation_text"
-msgstr "Im Bericht zu berücksichtigender Text"
+msgstr "Texti sem á að setja í skýrsluna"
 
 #. Default: "The questions are divided into 3 parts. The first part is about
 #. identifying potential chemical risks in your company. The second part is
@@ -186,70 +182,88 @@ msgstr "Im Bericht zu berücksichtigender Text"
 #: euphorie/client/browser/templates/identification.pt:30
 msgid "intro_identification_dsetool"
 msgstr ""
-"Die Fragen sind in 3 Teile gegliedert. Der erste Teil befasst sich mit der "
-"Identifizierung potentieller chemischer Risiken in Ihrem Unternehmen. Der "
-"zweite Teil behandelt Routinen für das chemische Risikomanagement. Und der "
-"dritte Teil untersucht Kontrollmaßnahmen zur Reduzierung chemischer Risiken."
+"Spurningarnar eru skipt upp í 3 hluta. Fyrsti hlutinn fjallar um að bera "
+"kennsl á möguleg efnaáhættu í fyrirtækinu þínu. Annar hlutinn fjallar um "
+"venjur í stjórnun efnaáhættu. Og þriðji hlutinn fjallar um "
+"stjórnunarráðstafanir til að draga úr efnaáhættu."
 
 #. Default: "Allow multiple options"
 #. AI-generated
 #: euphorie/content/choice.py:25
 msgid "label_allow_multiple_options"
-msgstr "Mehrere Optionen ermöglichen"
+msgstr "Leyfa margar möguleikar"
+
+#. Default: "Edit Organisation"
+#. AI-generated
+#: euphorie/client/browser/templates/panel-edit-organisation.pt:20
+msgid "label_edit_organisation"
+msgstr "Breyta stofnun"
 
 #. Default: "Enable email reminder?"
 #. AI-generated
 #: euphorie/content/survey.py:177
 msgid "label_enable_email_reminder"
-msgstr "E-Mail Erinnerung aktivieren?"
+msgstr "Virkja tölvupóst-áminningu?"
 
 #. Default: "Recommendation"
 #. AI-generated
 #: euphorie/content/module.py:63
 msgid "label_module_recommendation"
-msgstr "Empfehlung"
+msgstr "Mæling"
 
 #. Default: "Text"
 #. AI-generated
 #: euphorie/content/recommendation.py:12
 msgid "label_recommendation_text"
-msgstr "Text"
+msgstr "Texti"
 
 #. Default: "Completion threshold for report availability"
 #. AI-generated
 #: euphorie/content/survey.py:147
 msgid "label_report_completion_threshold"
-msgstr "Abschlussgrenze für Berichtsverfügbarkeit"
+msgstr "Lagningarmarka miðað við framvindu í verkefninu"
 
 #. Default: "Good practices and guidance"
 #. AI-generated
 #: euphorie/client/browser/templates/report_inventory.pt:47
 msgid "label_report_inventory"
-msgstr "Gute Praktiken und Anleitung"
+msgstr "Góðar vinnubrigði og leiðbeiningar"
 
 #. Default: "Short questionnaire report"
 #. AI-generated
 #: euphorie/client/browser/templates/report_inventory.pt:50
 msgid "label_report_inventory_short"
-msgstr "Kurzer Fragebogen-Bericht"
+msgstr "Stutt skýrsla úr spurningum"
 
 #. Default: "Send email reminder"
 #. AI-generated
 #: euphorie/client/browser/templates/email_reminder.pt:38
 msgid "label_send_email_reminder"
-msgstr "E-Mail-Erinnerung senden"
+msgstr "Senda tölvupóst-áminningu"
 
 #. Default: "Show recommendations as immediate feedback"
 #. AI-generated
 #: euphorie/content/survey.py:231
 msgid "label_show_immediate_feedback"
-msgstr "Empfehlungen als unmittelbares Feedback anzeigen"
+msgstr "Sýna mælingar sem strax endurgjöf"
+
+#. Default: "No validation is requested at this time."
+#. AI-generated
+#: euphorie/client/browser/templates/consultancy.pt:100
+msgid "message_no_validation_requested"
+msgstr "Ekkert gildistaka er óskað í þessu sinn."
+
+#. Default: "You haven&rsquo;t earned any certificates yet."
+#. AI-generated
+#: euphorie/client/browser/templates/certificates.pt:29
+msgid "message_you_dont_have_any_certificates_yet"
+msgstr "Þú hefur ekki náð neinum skilríkjum hingað til."
 
 #. Default: "Email reminder"
 #. AI-generated
 #: euphorie/client/browser/webhelpers.py:1567
 msgid "navigation_email_reminder"
-msgstr "E-Mail-Erinnerung"
+msgstr "Tölvupóstur sem áminning"
 
 #. Default: "When you have finished the assessment to at least
 #. ${completion_threshold}% you will be able to create a report."
@@ -258,5 +272,5 @@ msgstr "E-Mail-Erinnerung"
 #: euphorie/client/browser/templates/report_inventory.pt:76
 msgid "report_intro_incomplete"
 msgstr ""
-"Wenn Sie die Bewertung zu mindestens ${completion_threshold}% abgeschlossen "
-"haben, können Sie einen Bericht erstellen."
+"Þegar þú hefur lokið matið að minnst ${completion_threshold}% verður þú að "
+"geta búið að skýrslu."
