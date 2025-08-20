@@ -234,7 +234,7 @@
                   <tal:i18n i18n:translate="label_agree_terms_conditions">
 
                                     I agree with the
-                    
+
                     <a class="pat-modal"
                        href="${base_url}/terms-conditions#document-content"
                        data-pat-modal="class: sheet"
@@ -276,7 +276,9 @@
                 <tal:i18n i18n:translate="oira_name_line_1">Dangerous Substances</tal:i18n>
                 <tal:i18n i18n:translate="oira_name_line_2">eTool</tal:i18n>
               </p>
-              <p class="info" style="margin-top: 10px">
+              <p class="info"
+                 style="margin-top: 10px"
+              >
                 <tal:i18n i18n:translate="info_login">Dear user, in order to be able to user the tool and get all functionalities, you are requested to login.</tal:i18n><br />
                 <tal:i18n i18n:translate="info_register">Please, if you do not have a user, register first.</tal:i18n>
               </p>
