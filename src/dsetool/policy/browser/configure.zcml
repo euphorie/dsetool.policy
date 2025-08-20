@@ -10,4 +10,15 @@
       layer="dsetool.policy.interfaces.IDSEToolPolicyLayer"
       />
 
+  <configure package="euphorie.client.browser">
+    <browser:page
+        name="webhelpers"
+        for="*"
+        class="dsetool.policy.browser.webhelpers.DSEToolWebHelpers"
+        template="templates/webhelpers.pt"
+        permission="zope.Public"
+        layer="dsetool.policy.interfaces.IDSEToolPolicyClientLayer"
+        />
+  </configure>
+
 </configure>
