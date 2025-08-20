@@ -1,8 +1,8 @@
-from euphorie.client.browser.webhelpers import WebHelpers
+from osha.oira.client.browser.webhelpers import OSHAWebHelpers
 from plone.memoize.instance import memoize
 
 
-class DSEToolWebHelpers(WebHelpers):
+class DSEToolWebHelpers(OSHAWebHelpers):
     """Browser view with utility methods that can be used in templates.
     View name: @@webhelpers
     """
@@ -23,6 +23,6 @@ class DSEToolWebHelpers(WebHelpers):
         """Return custom CSS where necessary."""
         styles_css = (
             f'<link href="{self.client_url}/++resource++dsetool.resources/'
-            f'style/all.css" rel="stylesheet" type="text/css" />'
+            f'style/all.css" rel="stylesheet" type="text/css" />\n'
         )
-        return styles_css
+        return styles_css + super().custom_css
