@@ -3,75 +3,74 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Euphorie dsetool.policy\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-12 12:11+0000\n"
-"PO-Revision-Date: 2016-07-28 15:10+0200\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: de\n"
+"POT-Creation-Date: 2025-08-12 12:07+0000\n"
+"PO-Revision-Date: 2013-08-08 12:36+0200\n"
+"Last-Translator: syslab.com GmbH <info@syslab.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 "Domain: euphorie\n"
-"Generated-By: Babel 0.9.6\n"
+"Generated-By: Babel 0.9.5\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"X-Generator: Poedit 1.8.3\n"
 
 #. AI-generated
 #: euphorie/client/browser/webhelpers.py:1384
 msgid "Answered"
-msgstr "Beantwortet"
+msgstr "Resposta"
 
 #. AI-generated
 #: euphorie/content/profiles/default/types/euphorie.choice.xml
 #: euphorie/upgrade/content/v1/20250402124248_add_content_type__choice/types/euphorie.choice.xml
 msgid "Choice"
-msgstr "Auswahl"
+msgstr "Elecció"
 
 #. AI-generated
 #: euphorie/deployment/profiles/default/actions.xml
 #: euphorie/upgrade/deployment/v1/20250327125832_install_the_maintenance_actions/actions.xml
 msgid "Maintenance actions"
-msgstr "Wartungsarbeiten"
+msgstr "Accions de manteniment"
 
 #. AI-generated
 #: euphorie/deployment/browser/sitemenu.py:92
 #: euphorie/deployment/browser/templates/maintenance.pt:12
 msgid "Maintenance view"
-msgstr "Wartungsansicht"
+msgstr "Vista de manteniment"
 
 #. AI-generated
 #: euphorie/client/browser/webhelpers.py:1383
 msgid "Not yet answered"
-msgstr "Noch nicht beantwortet"
+msgstr "Encara no respost"
 
 #. AI-generated
 #: euphorie/client/browser/survey.py:95
 msgid "OiRA tool reminder"
-msgstr "OiRA Tool Erinnerung"
+msgstr "Recordatori de l'eina OiRA"
 
 #. AI-generated
 #: euphorie/content/profiles/default/types/euphorie.option.xml
 #: euphorie/upgrade/content/v1/20250402124248_add_content_type__choice/types/euphorie.option.xml
 msgid "Option"
-msgstr "Option"
+msgstr "Opció"
 
 #. AI-generated
 #: euphorie/content/profiles/default/types/euphorie.recommendation.xml
 msgid "Recommendation"
-msgstr "Empfehlung"
+msgstr "Recomanació"
 
 #. Default: "Option ${number}"
 #. AI-generated
 #: euphorie/content/browser/templates/choice_view.pt:55
 msgid "choice_option_header"
-msgstr "Option ${number}"
+msgstr "Opció ${number}"
 
 #. Default: "Recommendation ${number}"
 #. AI-generated
 #: euphorie/content/browser/templates/option_view.pt:66
 msgid "choice_recommendation_header"
-msgstr "Empfehlung ${number}"
+msgstr "Recomanació ${number}"
 
 #. Default: "Please enter the completion percentage above which the report is
 #. available on this tool. The user will be unable to view or download a
@@ -81,11 +80,10 @@ msgstr "Empfehlung ${number}"
 #: euphorie/content/survey.py:151
 msgid "description_report_completion_threshold"
 msgstr ""
-"Bitte geben Sie den Fertigstellungsprozentsatz ein, ab dem der Bericht für "
-"dieses Tool verfügbar ist. Der Nutzer wird nicht in der Lage sein, einen "
-"Bericht zu betrachten oder herunterzuladen, bis die Bewertung bis zum "
-"angegebenen Prozentsatz abgeschlossen ist. Geben Sie “0” ein, um den Bericht"
-" immer verfügbar zu haben."
+"Si us plau, introdueix el percentatge de completitud per sobre del qual "
+"l'informe està disponible en aquesta eina. L'usuari no podrà veure ni "
+"descarregar un informe fins que l'avaluació s'hagi completat fins al "
+"percentatge donat. Introdueix “0” per tenir sempre l'informe disponible."
 
 #. Default: "After the user has selected an option for a choice, show any
 #. associated recommendations before proceeding to the next choice"
@@ -93,8 +91,8 @@ msgstr ""
 #: euphorie/content/survey.py:235
 msgid "description_show_immediate_feedback"
 msgstr ""
-"Nachdem der Benutzer eine Option für eine Auswahl getroffen hat, zeigen Sie "
-"die zugehörigen Empfehlungen an, bevor Sie zur nächsten Auswahl übergehen"
+"Després que l'usuari hagi seleccionat una opció per a una elecció, mostra "
+"qualsevol recomanació associada abans de procedir a la següent elecció"
 
 #. Default: "If you would like to continue using this tool at a later point in
 #. time, we can send you a reminder email with a link to this assessment."
@@ -102,9 +100,8 @@ msgstr ""
 #: euphorie/client/browser/templates/email_reminder.pt:32
 msgid "email_reminder_intro"
 msgstr ""
-"Wenn Sie dieses Tool zu einem späteren Zeitpunkt weiterhin nutzen möchten, "
-"können wir Ihnen eine Erinnerungs-E-Mail mit einem Link zu dieser Bewertung "
-"senden."
+"Si voleu continuar utilitzant aquesta eina més endavant, us podem enviar un "
+"correu electrònic de recordatori amb un enllaç a aquesta avaluació."
 
 #. Default: "This is your reminder to continue your assessment with the tool
 #. \"${tool_name}\":"
@@ -112,25 +109,26 @@ msgstr ""
 #: euphorie/client/browser/templates/email_reminder_body.pt:8
 msgid "email_reminder_main"
 msgstr ""
-"Dies ist Ihre Erinnerung daran, Ihre Bewertung mit dem Tool fortzusetzen \\"
+"Aquest és el vostre recordatori per continuar la vostra avaluació amb l'eina"
+" \\"
 
 #. Default: "Email reminder"
 #. AI-generated
 #: euphorie/client/browser/templates/email_reminder.pt:31
 msgid "header_email_reminder"
-msgstr "E-Mail-Erinnerung"
+msgstr "Recordatori de correu electrònic"
 
 #. Default: "Options"
 #. AI-generated
 #: euphorie/content/browser/templates/choice_view.pt:44
 msgid "header_options"
-msgstr "Optionen"
+msgstr "Opcions"
 
 #. Default: "Recommendations"
 #. AI-generated
 #: euphorie/content/browser/templates/option_view.pt:52
 msgid "header_recommendations"
-msgstr "Empfehlungen"
+msgstr "Recomanacions"
 
 #. Default: "If active, checkboxes are shown to allow selecting more than one
 #. option. Otherwise, radio buttons are used to force a single selection."
@@ -138,15 +136,15 @@ msgstr "Empfehlungen"
 #: euphorie/content/choice.py:26
 msgid "help_allow_multiple_options"
 msgstr ""
-"Wenn sie aktiv sind, werden Checkboxen angezeigt, die ermöglichen, mehr als "
-"eine Option auszuwählen. Andernfalls werden Radiobuttons verwendet, um eine "
-"einzelne Auswahl zu erzwingen."
+"Si està actiu, es mostren caselles de verificació per permetre seleccionar "
+"més d'una opció. Altrament, es fan servir botons de ràdio per forçar una "
+"única selecció."
 
 #. Default: "Offer to send an email reminder about this tool"
 #. AI-generated
 #: euphorie/content/survey.py:178
 msgid "help_enable_email_reminder"
-msgstr "Angebot, eine E-Mail-Erinnerung zu diesem Tool zu senden"
+msgstr "Ofereix enviar un recordatori de correu electrònic sobre aquesta eina"
 
 #. Default: "The logo will appear on the sector overview page of your country.
 #. Make sure your image is of format png, jpg or gif and does not contain any
@@ -156,10 +154,10 @@ msgstr "Angebot, eine E-Mail-Erinnerung zu diesem Tool zu senden"
 #: euphorie/content/sector.py:72
 msgid "help_logo_upload"
 msgstr ""
-"Das Logo wird auf der Branchenübersichtsseite Ihres Landes erscheinen. "
-"Stellen Sie sicher, dass Ihr Bild im Format png, jpg oder gif vorliegt und "
-"keine Sonderzeichen enthält. Das neue Logo wird erst sichtbar, wenn Sie Ihre"
-" Änderungen gespeichert und das OiRA-Tool veröffentlicht haben."
+"El logotip apareixerà a la pàgina de resum del sector del vostre país. "
+"Assegureu-vos que la vostra imatge és en format png, jpg o gif i que no "
+"conté cap caràcter especial. El nou logotip només es farà visible després "
+"que hagueu desat els vostres canvis i publicat l'eina OiRA."
 
 #. Default: "If this module is used as part of an inventory tool,
 #. thisrecommendation text will be used as in introduction in the reportbefore
@@ -168,15 +166,15 @@ msgstr ""
 #: euphorie/content/module.py:64
 msgid "help_module_recommendation"
 msgstr ""
-"Wenn dieses Modul als Teil eines Inventarisierungstools verwendet wird, wird"
-" dieser Empfehlungstext als Einleitung in den Bericht vor den individuellen "
-"Empfehlungen aufgeführt."
+"Si aquest mòdul s'usa com a part d'una eina d'inventari, aquest text de "
+"recomanació es farà servir com a introducció a l'informe abans que es "
+"llisten les recomanacions individuals."
 
 #. Default: "Text to be included in the report"
 #. AI-generated
 #: euphorie/content/recommendation.py:13
 msgid "help_recommendation_text"
-msgstr "Im Bericht zu berücksichtigender Text"
+msgstr "Text a incloure a l'informe"
 
 #. Default: "The questions are divided into 3 parts. The first part is about
 #. identifying potential chemical risks in your company. The second part is
@@ -186,28 +184,34 @@ msgstr "Im Bericht zu berücksichtigender Text"
 #: euphorie/client/browser/templates/identification.pt:30
 msgid "intro_identification_dsetool"
 msgstr ""
-"Die Fragen sind in 3 Teile gegliedert. Der erste Teil befasst sich mit der "
-"Identifizierung potentieller chemischer Risiken in Ihrem Unternehmen. Der "
-"zweite Teil behandelt Routinen für das chemische Risikomanagement. Und der "
-"dritte Teil untersucht Kontrollmaßnahmen zur Reduzierung chemischer Risiken."
+"Les preguntes estan dividides en 3 parts. La primera part tracta sobre "
+"l'identificació de possibles riscos químics a la vostra empresa. La segona "
+"part tracta sobre les rutines de gestió de riscos químics. I la tercera part"
+" tracta sobre les mesures de control per reduir els riscos químics."
 
 #. Default: "Allow multiple options"
 #. AI-generated
 #: euphorie/content/choice.py:25
 msgid "label_allow_multiple_options"
-msgstr "Mehrere Optionen ermöglichen"
+msgstr "Permet múltiples opcions"
+
+#. Default: "Edit Organisation"
+#. AI-generated
+#: euphorie/client/browser/templates/panel-edit-organisation.pt:20
+msgid "label_edit_organisation"
+msgstr "Edita Organització"
 
 #. Default: "Enable email reminder?"
 #. AI-generated
 #: euphorie/content/survey.py:177
 msgid "label_enable_email_reminder"
-msgstr "E-Mail Erinnerung aktivieren?"
+msgstr "Habilita el recordatori de correu electrònic?"
 
 #. Default: "Recommendation"
 #. AI-generated
 #: euphorie/content/module.py:63
 msgid "label_module_recommendation"
-msgstr "Empfehlung"
+msgstr "Recomanació"
 
 #. Default: "Text"
 #. AI-generated
@@ -219,37 +223,49 @@ msgstr "Text"
 #. AI-generated
 #: euphorie/content/survey.py:147
 msgid "label_report_completion_threshold"
-msgstr "Abschlussgrenze für Berichtsverfügbarkeit"
+msgstr "Llindar de completitud per a la disponibilitat de l'informe"
 
 #. Default: "Good practices and guidance"
 #. AI-generated
 #: euphorie/client/browser/templates/report_inventory.pt:47
 msgid "label_report_inventory"
-msgstr "Gute Praktiken und Anleitung"
+msgstr "Bones pràctiques i guia"
 
 #. Default: "Short questionnaire report"
 #. AI-generated
 #: euphorie/client/browser/templates/report_inventory.pt:50
 msgid "label_report_inventory_short"
-msgstr "Kurzer Fragebogen-Bericht"
+msgstr "Informe breu del qüestionari"
 
 #. Default: "Send email reminder"
 #. AI-generated
 #: euphorie/client/browser/templates/email_reminder.pt:38
 msgid "label_send_email_reminder"
-msgstr "E-Mail-Erinnerung senden"
+msgstr "Envia un recordatori de correu electrònic"
 
 #. Default: "Show recommendations as immediate feedback"
 #. AI-generated
 #: euphorie/content/survey.py:231
 msgid "label_show_immediate_feedback"
-msgstr "Empfehlungen als unmittelbares Feedback anzeigen"
+msgstr "Mostra recomanacions com a feedback immediat"
+
+#. Default: "No validation is requested at this time."
+#. AI-generated
+#: euphorie/client/browser/templates/consultancy.pt:100
+msgid "message_no_validation_requested"
+msgstr "No es sol·licita cap validació en aquest moment."
+
+#. Default: "You haven&rsquo;t earned any certificates yet."
+#. AI-generated
+#: euphorie/client/browser/templates/certificates.pt:29
+msgid "message_you_dont_have_any_certificates_yet"
+msgstr "Encara no heu rebut cap certificat."
 
 #. Default: "Email reminder"
 #. AI-generated
 #: euphorie/client/browser/webhelpers.py:1567
 msgid "navigation_email_reminder"
-msgstr "E-Mail-Erinnerung"
+msgstr "Recordatori de correu electrònic"
 
 #. Default: "When you have finished the assessment to at least
 #. ${completion_threshold}% you will be able to create a report."
@@ -258,5 +274,5 @@ msgstr "E-Mail-Erinnerung"
 #: euphorie/client/browser/templates/report_inventory.pt:76
 msgid "report_intro_incomplete"
 msgstr ""
-"Wenn Sie die Bewertung zu mindestens ${completion_threshold}% abgeschlossen "
-"haben, können Sie einen Bericht erstellen."
+"Quan hagueu acabat l'avaluació almenys al ${completion_threshold}% podreu "
+"crear un informe."
