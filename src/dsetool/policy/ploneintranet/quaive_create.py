@@ -1,42 +1,28 @@
-from dsetool.policy.content.browser.choice import AddView as EuphorieChoiceAddView
-from dsetool.policy.content.browser.option import AddView as EuphorieOptionAddView
 from osha.oira.ploneintranet.quaive_create import QuaiveCreateFormMixin
 from osha.oira.ploneintranet.quaive_create import QuaiveCreateViewMixin
+from plone.dexterity.browser.add import DefaultAddForm
+from plone.dexterity.browser.add import DefaultAddView
 
 
-from dsetool.policy.content.browser.recommendation import (  # isort:skip
-    AddView as EuphorieRecommendationAddView,
-)
-
-
-class QuaiveCreateEuphorieChoiceForm(QuaiveCreateFormMixin, EuphorieChoiceAddView.form):
+class QuaiveCreateEuphorieChoiceForm(QuaiveCreateFormMixin, DefaultAddForm):
     pass
-    # template = ViewPageTemplateFile("templates/quaive-form.pt")
 
 
-class QuaiveCreateEuphorieChoiceView(QuaiveCreateViewMixin, EuphorieChoiceAddView):
+class QuaiveCreateEuphorieChoiceView(QuaiveCreateViewMixin, DefaultAddView):
     form = QuaiveCreateEuphorieChoiceForm
 
 
-class QuaiveCreateEuphorieOptionForm(QuaiveCreateFormMixin, EuphorieOptionAddView.form):
+class QuaiveCreateEuphorieOptionForm(QuaiveCreateFormMixin, DefaultAddForm):
     pass
-    # template = ViewPageTemplateFile("templates/quaive-form.pt")
 
 
-class QuaiveCreateEuphorieOptionView(QuaiveCreateViewMixin, EuphorieOptionAddView):
+class QuaiveCreateEuphorieOptionView(QuaiveCreateViewMixin, DefaultAddView):
     form = QuaiveCreateEuphorieOptionForm
 
 
-class QuaiveCreateEuphorieRecommendationForm(
-    QuaiveCreateFormMixin, EuphorieRecommendationAddView.form
-):
+class QuaiveCreateEuphorieRecommendationForm(QuaiveCreateFormMixin, DefaultAddForm):
     pass
 
 
-# template = ViewPageTemplateFile("templates/quaive-form.pt")
-
-
-class QuaiveCreateEuphorieRecommendationView(
-    QuaiveCreateViewMixin, EuphorieRecommendationAddView
-):
+class QuaiveCreateEuphorieRecommendationView(QuaiveCreateViewMixin, DefaultAddView):
     form = QuaiveCreateEuphorieRecommendationForm
