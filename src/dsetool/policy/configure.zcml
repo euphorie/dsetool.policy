@@ -12,7 +12,6 @@
 
   <include package=".adapters" />
   <include package=".browser" />
-  <include package=".content" />
   <include package=".ploneintranet" />
 
   <browser:resourceDirectory
