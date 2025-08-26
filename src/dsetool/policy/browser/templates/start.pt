@@ -116,7 +116,7 @@
                     (black and white in red frames) depicted below.</p>
                   <p><strong>Current hazard pictograms:</strong></p>
                   <figure>
-                    <img src="https://eguides.osha.europa.eu/dangerous-substances/sites/default/files/HP1_v2.png" />
+                    <img src="/dangerous-substances/sites/default/files/HP1_v2.png" />
                   </figure>
                   <fieldset class="vertical">
                     <fieldset class="pat-checklist radio">
@@ -144,7 +144,7 @@
                       found in most workplaces, are detergents, adhesives and paints.</p>
                     <p><strong>Current hazard pictograms:</strong></p>
                     <figure>
-                      <img src="https://eguides.osha.europa.eu/dangerous-substances/sites/default/files/HP1_v2.png" />
+                      <img src="/dangerous-substances/sites/default/files/HP1_v2.png" />
                     </figure>
                     <fieldset class="pat-checklist radio pat-scroll">
                       <label class="yes unchecked"><input class="pat-scroll"
