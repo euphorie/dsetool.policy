@@ -5,6 +5,17 @@
     i18n_domain="euphorie"
     >
 
+  <!--
+
+    These views are used to display the some content types that,
+    at the time of writing, are in a Euphorie branch called dsetool.
+
+    If you get an error importing some interface from Euphorie,
+    you might need to use that branch.
+
+  -->
+
+  <!-- views -->
   <browser:page
       name="quaive-view"
       for="euphorie.content.choice.IChoice"
@@ -30,6 +41,8 @@
       />
 
   <configure package="osha.oira.ploneintranet">
+
+    <!-- edit forms -->
     <browser:page
         name="quaive-edit"
         for="euphorie.content.choice.IChoice"
@@ -57,6 +70,7 @@
         layer="osha.oira.interfaces.IOSHAContentSkinLayer"
         />
 
+    <!-- add forms -->
     <browser:page
         name="quaive-create-euphorie.choice"
         for="*"
@@ -80,6 +94,7 @@
         permission="cmf.AddPortalContent"
         layer="osha.oira.interfaces.IOSHAContentSkinLayer"
         />
+
   </configure>
 
 </configure>
