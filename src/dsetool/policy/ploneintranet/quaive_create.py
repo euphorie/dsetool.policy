@@ -1,10 +1,10 @@
-from osha.oira.content.browser.choice import AddView as EuphorieChoiceAddView
-from osha.oira.content.browser.option import AddView as EuphorieOptionAddView
+from dsetool.policy.content.browser.choice import AddView as EuphorieChoiceAddView
+from dsetool.policy.content.browser.option import AddView as EuphorieOptionAddView
 from osha.oira.ploneintranet.quaive_create import QuaiveCreateFormMixin
 from osha.oira.ploneintranet.quaive_create import QuaiveCreateViewMixin
 
 
-from osha.oira.content.browser.recommendation import (  # isort:skip
+from dsetool.policy.content.browser.recommendation import (  # isort:skip
     AddView as EuphorieRecommendationAddView,
 )
 
