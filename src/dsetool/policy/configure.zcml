@@ -12,6 +12,7 @@
 
   <include package=".adapters" />
   <include package=".browser" />
+  <include package=".ploneintranet" />
 
   <browser:resourceDirectory
       name="dsetool.resources"
