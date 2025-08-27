@@ -21,7 +21,7 @@ class FixTheSecuritySettings(UpgradeStep):
         brains = api.content.find(
             portal_type=[
                 "euphorie.choice",
-                "euphorie.reccomendation",
+                "euphorie.recommendation",
                 "euphorie.option",
             ]
         )
