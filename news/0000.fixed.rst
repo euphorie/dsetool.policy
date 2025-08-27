@@ -1,3 +1,0 @@
-Inherit from osha.oira webhelpers instead of generic euphorie.
-Fixes an error where a method is missing that is used by the osha.oira 
-package.
