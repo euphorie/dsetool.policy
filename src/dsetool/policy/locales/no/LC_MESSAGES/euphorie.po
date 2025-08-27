@@ -1,20 +1,84 @@
+# ############################################################################
 #
+# Copyright (c) 2003-2019 Zope Foundation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+# ############################################################################
 msgid ""
 msgstr ""
-"Project-Id-Version: Euphorie dsetool.policy\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-12 12:22+0000\n"
-"PO-Revision-Date: 2013-06-28 11:02+0200\n"
-"Last-Translator: JC Brand <brand@syslab.com>\n"
-"Language-Team: Norwegian\n"
+"Project-Id-Version: Unknown\n"
+"POT-Creation-Date: Wed Aug 27 08:58:34 2025\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "Domain: euphorie\n"
-"Generated-By: Babel 0.9.6\n"
+"Generated-By: zope/app/locales/extract.py\n"
+"Language-Code: no\n"
+"Language: no\n"
+"Language-Name: Norsk\n"
 "Preferred-Encodings: utf-8 latin1\n"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:365
+msgid ""
+"${action-plan} In the fourth stage of the assessment you can decide what "
+"steps you will take to address the risks you have identified previously and "
+"what resources this might require. Based on this, a report will be "
+"automatically produced in the next step."
+msgstr ""
+"${action-plan} I den fjerde fasen av vurderingen kan du bestemme hvilke "
+"skritt du vil ta for å håndtere risikoene du har identifisert tidligere og "
+"hvilke ressurser dette kan kreve. Basert på dette vil en rapport automatisk "
+"bli produsert i neste trinn."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:359
+msgid ""
+"${evaluation} Here you will be able to determine the level of risk attached "
+"to each of the items you identified as 'need to be addressed' in the "
+"'Identification' stage."
+msgstr ""
+"${evaluation} Her vil du kunne bestemme risikonivået knyttet til hver av "
+"elementene du identifiserte som 'må adresseres' i 'Identifikasjons' fasen."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:351
+msgid ""
+"${identification} OiRA will present a series of potential health and safety "
+"hazards or problems that could exist in your workplace. By answering the "
+"statements/questions with either yes or no, you state if such hazards or "
+"problems are present. You can also decide to leave a question unanswered and"
+" thus put it on hold to be answered at a later stage."
+msgstr ""
+"${identification} OiRA vil presentere en rekke potensielle helse- og "
+"sikkerhetsfarer eller problemer som kan eksistere på din arbeidsplass. Ved å"
+" svare på utsagnene/spørsmålene med enten ja eller nei, bekrefter du om "
+"slike farer eller problemer er til stede. Du kan også bestemme deg for å la "
+"et spørsmål være ubesvart og dermed sette det på vent for å bli besvart på "
+"et senere tidspunkt."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:345
+msgid ""
+"${preparation} This gives you an overview of the particular assessment you "
+"are about to begin and can allow you to further customise the assessment to "
+"the specific nature of your business."
+msgstr ""
+"${preparation} Dette gir deg en oversikt over den spesifikke vurderingen du "
+"skal begynne på og kan tillate deg å ytterligere tilpasse vurderingen til "
+"din virksomhets spesifikke art."
 
 #. AI-generated
 #: euphorie/client/browser/webhelpers.py:1384
@@ -26,6 +90,76 @@ msgstr "Besvart"
 #: euphorie/upgrade/content/v1/20250402124248_add_content_type__choice/types/euphorie.choice.xml
 msgid "Choice"
 msgstr "Valg"
+
+#. AI-generated
+#: euphorie/deployment/meta.zcml:1
+msgid "Content rules: Manage rules"
+msgstr "Innholdsregler: Administrer regler"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:401
+msgid "Do I need to prepare?"
+msgstr "Trenger jeg å forberede meg?"
+
+#. AI-generated
+#: euphorie/content/permissions.zcml:1
+msgid "Euphorie: Add new RIE Content"
+msgstr "Euphorie: Legg til nytt RIE-innhold"
+
+#. AI-generated
+#: euphorie/content/permissions.zcml:1
+msgid "Euphorie: Delete published content"
+msgstr "Euphorie: Slett publisert innhold"
+
+#. AI-generated
+#: euphorie/content/permissions.zcml:1
+msgid "Euphorie: Manage country"
+msgstr "Euphorie: Administrer land"
+
+#. AI-generated
+#: euphorie/client/permissions.zcml:1
+msgid "Euphorie: Publish a Survey"
+msgstr "Euphorie: Publiser en undersøkelse"
+
+#. AI-generated
+#: euphorie/client/permissions.zcml:1
+msgid "Euphorie: View a Survey"
+msgstr "Euphorie: Se en undersøkelse"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:377
+msgid "How long will it take?"
+msgstr "Hvor lang tid vil det ta?"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:331
+msgid "However, OiRA is designed to be of most value to smaller businesses."
+msgstr ""
+"Imidlertid er OiRA designet for å være av størst verdi for mindre bedrifter."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:381
+msgid ""
+"However, you can spend whatever time you have available on an assessment and"
+" then return to it when convenient to pick up from the same point you left "
+"off."
+msgstr ""
+"Du kan imidlertid bruke den tiden du har tilgjengelig på en vurdering og "
+"deretter komme tilbake til den når det passer for å fortsette der du slapp."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:379
+msgid ""
+"It's impossible to say how long an assessment will take in general as the "
+"tools differ according to sectors and countries."
+msgstr ""
+"Det er umulig å si hvor lang tid en vurdering vil ta generelt, da verktøyene"
+" varierer etter sektor og land."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:121
+msgid "Learn more about the Dangerous Substances eTool"
+msgstr "Lær mer om Dangerous Substances eTool"
 
 #. AI-generated
 #: euphorie/deployment/profiles/default/actions.xml
@@ -45,6 +179,52 @@ msgid "Not yet answered"
 msgstr "Ikke besvart ennå"
 
 #. AI-generated
+#: osha/oira/configure.zcml:20
+msgid "OSHA OiRA customizations for Euphorie"
+msgstr "OSHA OiRA tilpasninger for Euphorie"
+
+#. AI-generated
+#: osha/oira/content/configure.zcml:9
+msgid "OSHA extra Country fields"
+msgstr "OSHA ekstra landfelt"
+
+#. AI-generated
+#: osha/oira/content/configure.zcml:15
+msgid "OSHA extra Survey fields"
+msgstr "OSHA ekstra undersøkelsesfelt"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:329
+msgid ""
+"OiRA can be used by anyone wishing to assess health and safety-related risks"
+" that might exist in their workplace."
+msgstr ""
+"OiRA kan brukes av alle som ønsker å vurdere helse- og sikkerhetsrelaterte "
+"risikoer som kan eksistere på arbeidsplassen deres."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:333
+msgid ""
+"OiRA is designed specifically to support them in assessing the risks at work"
+" and helping them to produce a documented risk assessment including an "
+"action plan tailored to the business's requirements."
+msgstr ""
+"OiRA er spesielt designet for å støtte dem i å vurdere risikoen på "
+"arbeidsplassen og hjelpe dem å produsere en dokumentert risikovurdering, "
+"inkludert en handlingsplan tilpasset bedriftens krav."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:323
+msgid ""
+"OiRA stands for Online Interactive Risk Assessment. It is a web-based tool "
+"that allows you to perform a health and safety risk assessment of your "
+"workplace."
+msgstr ""
+"OiRA står for Online Interactive Risk Assessment. Det er et nettbasert "
+"verktøy som lar deg utføre en helse- og sikkerhetsrisikovurdering av "
+"arbeidsplassen din."
+
+#. AI-generated
 #: euphorie/client/browser/survey.py:95
 msgid "OiRA tool reminder"
 msgstr "OiRA verktøypåminnelse"
@@ -56,9 +236,79 @@ msgid "Option"
 msgstr "Alternativ"
 
 #. AI-generated
+#: osha/oira/content/configure.zcml:15
+msgid "Provide additional OSHA fields"
+msgstr "Gi ekstra OSHA-felt"
+
+#. AI-generated
 #: euphorie/content/profiles/default/types/euphorie.recommendation.xml
 msgid "Recommendation"
 msgstr "Anbefaling"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:393
+msgid ""
+"Registering allows you to simply log in at any time to continue previous "
+"assessments or to start new ones."
+msgstr ""
+"Registrering lar deg enkelt logge inn når som helst for å fortsette "
+"tidligere vurderinger eller for å starte nye."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:390
+msgid ""
+"The first thing you will be asked to do when you begin your first risk "
+"assessment is to create an OiRA account - this is a simple and quick "
+"process."
+msgstr ""
+"Det første du vil bli bedt om å gjøre når du begynner første risikovurdering"
+" er å opprette en OiRA-konto - dette er en enkel og rask prosess."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:342
+msgid "There are four main stages to complete in the assessment process:"
+msgstr "Det er fire hovedfaser å fullføre i vurderingsprosessen:"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:340
+msgid "What do I have to do?"
+msgstr "Hva må jeg gjøre?"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:322
+msgid "What is OiRA (Online Interactive Risk Assessment)?"
+msgstr "Hva er OiRA (Online Interactive Risk Assessment)?"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:327
+msgid "Who is the OiRA tool for?"
+msgstr "Hvem er OiRA-verktøyet for?"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:388
+msgid "Why do I have to register?"
+msgstr "Hvorfor må jeg registrere meg?"
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:403
+msgid ""
+"You do not need any kind of specific preparation to start using the tool, "
+"however you should take some time to think about who is going to carry out "
+"the risk assessment, how workers are going to be involved in the process, "
+"etc."
+msgstr ""
+"Du trenger ikke noen form for spesifikk forberedelse for å begynne å bruke "
+"verktøyet, men du bør bruke litt tid på å tenke over hvem som skal utføre "
+"risikovurderingen, hvordan arbeidstakerne skal involveres i prosessen, osv."
+
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:395
+msgid ""
+"You have to make sure to be in possession of a printed, accurate and up-"
+"dated risk assessment (at any time)."
+msgstr ""
+"Du må sørge for å ha en trykt, nøyaktig og oppdatert risikovurdering (til "
+"enhver tid)."
 
 #. Default: "Option ${number}"
 #. AI-generated
@@ -128,6 +378,12 @@ msgstr "Alternativer"
 msgid "header_recommendations"
 msgstr "Anbefalinger"
 
+#. Default: "Register"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:144
+msgid "header_register"
+msgstr "Registrer deg"
+
 #. Default: "If active, checkboxes are shown to allow selecting more than one
 #. option. Otherwise, radio buttons are used to force a single selection."
 #. AI-generated
@@ -167,24 +423,75 @@ msgstr ""
 "anbefalingsteksten bli brukt som introduksjon i rapporten før individuelle "
 "anbefalinger listes opp."
 
+#. Default: "The password needs to be at least 12 characters long and needs to
+#. contain at least one lower case letter, one upper case letter and one
+#. digit."
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:222
+msgid "help_password_requirements"
+msgstr ""
+"Passordet må være minst 12 tegn langt og må inneholde minst én liten "
+"bokstav, én stor bokstav og ett siffer."
+
 #. Default: "Text to be included in the report"
 #. AI-generated
 #: euphorie/content/recommendation.py:13
 msgid "help_recommendation_text"
 msgstr "Tekst som skal inkluderes i rapporten"
 
+#. Default: "Dashboard"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:314
+msgid "home_link"
+msgstr "Dashboard"
+
+#. Default: "Your login name and/or password were entered incorrectly. Please
+#. check and try again or ${request_an_email_reminder}."
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:73
+msgid "incorrect_login"
+msgstr ""
+"Brukernavnet og/eller passordet ditt ble skrevet inn feil. Vennligst sjekk "
+"og prøv igjen, eller ${request_an_email_reminder}."
+
+#. Default: "Dear user, in order to be able to user the tool and get all
+#. functionalities, you are requested to login."
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:282
+msgid "info_login"
+msgstr ""
+"Kjære bruker, for å kunne bruke verktøyet og få alle funksjonene, blir det "
+"bedt om at du logger på."
+
+#. Default: "Please, if you do not have a user, register first."
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:283
+msgid "info_register"
+msgstr "Vennligst, hvis du ikke har en bruker, registrer deg først."
+
 #. Default: "The questions are divided into 3 parts. The first part is about
 #. identifying potential chemical risks in your company. The second part is
 #. about the routines for chemical risk management. And the third part is
 #. about control measures to reduce chemical risks."
-#. AI-generated
-#: euphorie/client/browser/templates/identification.pt:30
+#: dsetool.policy/src/dsetool/policy/browser/templates/identification.pt:30
 msgid "intro_identification_dsetool"
 msgstr ""
 "Spørsmålene er delt inn i 3 deler. Første del handler om å identifisere "
 "potensielle kjemiske risikoer i selskapet ditt. Den andre delen handler om "
 "rutiner for kjemisk risikostyring. Og den tredje delen handler om "
 "kontrolltiltak for å redusere kjemiske risikoer."
+
+#. Default: "Action Plan"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:366
+msgid "label_action_plan"
+msgstr "Handlingsplan"
+
+#. Default: "I agree with the ${link_terms_conditions}"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:238
+msgid "label_agree_terms_conditions"
+msgstr "Jeg er enig i ${link_terms_conditions}"
 
 #. Default: "Allow multiple options"
 #. AI-generated
@@ -198,11 +505,23 @@ msgstr "Tillat flere alternativer"
 msgid "label_continue"
 msgstr "Fortsett"
 
+#. Default: "Data protection notice"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:238
+msgid "label_data_protection_notice"
+msgstr "Databeskyttelsesvarsel"
+
 #. Default: "Edit Organisation"
 #. AI-generated
 #: euphorie/client/browser/templates/panel-edit-organisation.pt:20
 msgid "label_edit_organisation"
 msgstr "Rediger organisasjon"
+
+#. Default: "Email address"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:50
+msgid "label_email"
+msgstr "E-postadresse"
 
 #. Default: "Enable email reminder?"
 #. AI-generated
@@ -210,17 +529,95 @@ msgstr "Rediger organisasjon"
 msgid "label_enable_email_reminder"
 msgstr "Aktiver e-postpåminnelse?"
 
+#. Default: "Evaluation"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:360
+msgid "label_evaluation"
+msgstr "Evaluering"
+
+#. Default: "First name (optional)"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:161
+msgid "label_first_name_optional"
+msgstr "Fornavn (valgfritt)"
+
+#. Default: "I forgot my password"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:113
+msgid "label_forgot_password"
+msgstr "Jeg har glemt passordet mitt"
+
+#. Default: "Identification"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:352
+msgid "label_identification"
+msgstr "Identifikasjon"
+
+#. Default: "Keep me logged in."
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:85
+msgid "label_keep_logged_in"
+msgstr "Hold meg innlogget."
+
+#. Default: "Last name (optional)"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:174
+msgid "label_last_name_optional"
+msgstr "Etternavn (valgfritt)"
+
+#. Default: "Learn more"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:293
+msgid "label_learn_more"
+msgstr "Lær mer"
+
+#. Default: "Log in"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:93
+msgid "label_login"
+msgstr "Logg inn"
+
+#. Default: "Password"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:60
+msgid "label_login_password"
+msgstr "Passord"
+
 #. Default: "Recommendation"
 #. AI-generated
 #: euphorie/content/module.py:63
 msgid "label_module_recommendation"
 msgstr "Anbefaling"
 
+#. Default: "Desired password"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:201
+msgid "label_new_password"
+msgstr "Ønsket passord"
+
+#. Default: "Again password"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:214
+msgid "label_password_confirm"
+msgstr "Gjenta passord"
+
+#. Default: "Preparation"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:346
+msgid "label_preparation"
+msgstr "Forberedelse"
+
 #. Default: "Text"
 #. AI-generated
 #: euphorie/content/recommendation.py:12
 msgid "label_recommendation_text"
 msgstr "Tekst"
+
+#. Default: "register"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:105
+msgid "label_register_first"
+msgstr "registrere"
 
 #. Default: "Completion threshold for report availability"
 #. AI-generated
@@ -252,6 +649,24 @@ msgstr "Send e-postpåminnelse"
 msgid "label_show_immediate_feedback"
 msgstr "Vis anbefalinger som umiddelbar tilbakemelding"
 
+#. Default: "Start Risk Identification"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/templates/identification.pt:38
+msgid "label_start_identification"
+msgstr "Start Risikoidentifikasjon"
+
+#. Default: "Start"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/templates/start.pt:237
+msgid "label_start_survey"
+msgstr "Start"
+
+#. Default: "Start a test session"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:421
+msgid "label_start_test_session"
+msgstr "Start en testøkt"
+
 #. Default: "No validation is requested at this time."
 #. AI-generated
 #: euphorie/client/browser/templates/consultancy.pt:100
@@ -270,6 +685,29 @@ msgstr "Du har ennå ikke tjent noen sertifikater."
 msgid "navigation_email_reminder"
 msgstr "E-postpåminnelse"
 
+#. Default: "Dangerous Substances"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:276
+msgid "oira_name_line_1"
+msgstr "Farlige stoffer"
+
+#. Default: "eTool"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:277
+msgid "oira_name_line_2"
+msgstr "eTool"
+
+#. AI-generated
+#: osha/oira/configure.zcml:20
+msgid "osha.oira"
+msgstr "osha.oira"
+
+#. Default: "Don't have an account? Then please ${register_link} first."
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:105
+msgid "register_teaser"
+msgstr "Har du ikke en konto? Vennligst ${register_link} først."
+
 #. Default: "When you have finished the assessment to at least
 #. ${completion_threshold}% you will be able to create a report."
 #. AI-generated
@@ -279,3 +717,33 @@ msgid "report_intro_incomplete"
 msgstr ""
 "Når du har fullført vurderingen til minst ${completion_threshold}% vil du "
 "kunne opprette en rapport."
+
+#. Default: "reset your password"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:73
+msgid "request_an_email_reminder"
+msgstr "tilbakestill passordet ditt"
+
+#. Default: "${link_register} if you would like to use OiRA."
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
+msgid "text_create_account"
+msgstr "${link_register} hvis du ønsker å bruke OiRA."
+
+#. Default: "${link_test_session} if you only want to taste OiRA."
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:421
+msgid "text_test_session"
+msgstr "${link_test_session} hvis du bare vil smake på OiRA."
+
+#. Default: "Start a new test session"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:421
+msgid "tooltip_start_test_session"
+msgstr "Start en ny testøkt"
+
+#. Default: "Register"
+#. AI-generated
+#: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
+msgid "verb_register"
+msgstr "Registrer"
