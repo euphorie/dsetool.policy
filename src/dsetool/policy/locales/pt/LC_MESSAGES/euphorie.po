@@ -29,6 +29,120 @@ msgstr ""
 "Language-Name: Português\n"
 "Preferred-Encodings: utf-8 latin1\n"
 
+#. Default: "The questions are divided into 3 parts. The first part is about
+#. identifying potential chemical risks in your company. The second part is
+#. about the routines for chemical risk management. And the third part is
+#. about control measures to reduce chemical risks."
+#. AI-generated
+#: src/dsetool/policy/browser/templates/identification.pt:30
+msgid "intro_identification_dsetool"
+msgstr ""
+"As perguntas estão divididas em 3 partes. A primeira parte é sobre "
+"identificar riscos químicos potenciais em sua empresa. A segunda parte é "
+"sobre as rotinas de gerenciamento de riscos químicos. E a terceira parte é "
+"sobre medidas de controle para reduzir riscos químicos."
+
+#. Default: "Start Risk Identification"
+#. AI-generated
+#: src/dsetool/policy/browser/templates/identification.pt:38
+msgid "label_start_identification"
+msgstr "Iniciar Identificação de Riscos"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:100
+msgid ""
+"Seven questions will address your current practices with regard to dangerous"
+" substances and chemical products. If improvements are needed, you will "
+"immediately get tips and advice on what you need to do and on how you can do"
+" it as easily and efficiently as possible."
+msgstr ""
+"Sete perguntas abordarão suas práticas atuais com relação a substâncias "
+"perigosas e produtos químicos. Se houver necessidade de melhorias, você "
+"receberá imediatamente dicas e conselhos sobre o que precisa fazer e como "
+"pode fazer isso da maneira mais fácil e eficiente possível."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:107
+msgid ""
+"This is an interactive questionnaire and the questions might change related "
+"to given answers. You can use the skip button if you are not sure about an "
+"answer yet and get back to the question later. You will also receive a "
+"report containing your answers, recommendations and advice."
+msgstr ""
+"Este é um questionário interativo e as perguntas podem mudar de acordo com "
+"as respostas dadas. Você pode usar o botão de pular se ainda não tiver "
+"certeza de uma resposta e voltar à pergunta mais tarde. Você também receberá"
+" um relatório contendo suas respostas, recomendações e conselhos."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:113
+msgid "Let's quickly check if this tool might be helpful for you&hellip;"
+msgstr ""
+"Vamos verificar rapidamente se esta ferramenta pode ser útil para "
+"você&hellip;"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:114
+msgid ""
+"Do you use, handle or store chemical products or chemical substances at "
+"work? Such products will be labelled with one or more of the currently used "
+"hazard pictograms (black and white in red frames) depicted below."
+msgstr ""
+"Você usa, manuseia ou armazena produtos químicos ou substâncias químicas no "
+"trabalho? Tais produtos serão etiquetados com um ou mais dos pictogramas de "
+"perigo atualmente usados (preto e branco em molduras vermelhas) mostrados "
+"abaixo."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:117
+#: src/dsetool/policy/browser/templates/start.pt:145
+msgid "Current hazard pictograms:"
+msgstr "Pictogramas de perigo atuais:"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:142
+msgid ""
+"Are you sure that you have no chemical products or substances labelled with "
+"a hazard pictogram? Examples of chemical products with such labels, which "
+"can be found in most workplaces, are detergents, adhesives and paints."
+msgstr ""
+"Tem certeza de que não tem produtos ou substâncias químicas etiquetados com "
+"um pictograma de perigo? Exemplos de produtos químicos com esses rótulos, "
+"que podem ser encontrados na maioria dos locais de trabalho, são "
+"detergentes, adesivos e tintas."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:169
+msgid ""
+"Could air pollution of any kind be generated, for example dust from grinding"
+" or sanding, combustion products such as exhausts and fumes, or degradation "
+"products from chemical products or hazardous waste?"
+msgstr ""
+"Poderia haver algum tipo de poluição do ar, por exemplo, poeira de moagem ou"
+" lixamento, produtos de combustão como gases de escape e fumaça, ou produtos"
+" de degradação de produtos químicos ou resíduos perigosos?"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:194
+msgid "There is no need to continue with the survey."
+msgstr "Não há necessidade de continuar com a pesquisa."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:208
+msgid "It seems it would make sense for you to do this assessment."
+msgstr "Parece que seria sensato para você fazer esta avaliação."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:211
+msgid "Click the start button below to begin the assessment."
+msgstr "Clique no botão de início abaixo para começar a avaliação."
+
+#. Default: "Start"
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:239
+msgid "label_start_survey"
+msgstr "Iniciar"
+
 #. AI-generated
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:365
 msgid ""

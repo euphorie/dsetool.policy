@@ -29,6 +29,62 @@ msgstr ""
 "Language-Name: Suomi\n"
 "Preferred-Encodings: utf-8 latin1\n"
 
+#: src/dsetool/policy/browser/templates/identification.pt:30
+#. Default: "The questions are divided into 3 parts. The first part is about identifying potential chemical risks in your company. The second part is about the routines for chemical risk management. And the third part is about control measures to reduce chemical risks."
+msgid "intro_identification_dsetool"
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/identification.pt:38
+#. Default: "Start Risk Identification"
+msgid "label_start_identification"
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:100
+msgid "Seven questions will address your current practices with regard to dangerous substances and chemical products. If improvements are needed, you will immediately get tips and advice on what you need to do and on how you can do it as easily and efficiently as possible."
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:107
+msgid "This is an interactive questionnaire and the questions might change related to given answers. You can use the skip button if you are not sure about an answer yet and get back to the question later. You will also receive a report containing your answers, recommendations and advice."
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:113
+msgid "Let's quickly check if this tool might be helpful for you&hellip;"
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:114
+msgid "Do you use, handle or store chemical products or chemical substances at work? Such products will be labelled with one or more of the currently used hazard pictograms (black and white in red frames) depicted below."
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:117
+#: src/dsetool/policy/browser/templates/start.pt:145
+msgid "Current hazard pictograms:"
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:142
+msgid "Are you sure that you have no chemical products or substances labelled with a hazard pictogram? Examples of chemical products with such labels, which can be found in most workplaces, are detergents, adhesives and paints."
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:169
+msgid "Could air pollution of any kind be generated, for example dust from grinding or sanding, combustion products such as exhausts and fumes, or degradation products from chemical products or hazardous waste?"
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:194
+msgid "There is no need to continue with the survey."
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:208
+msgid "It seems it would make sense for you to do this assessment."
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:211
+msgid "Click the start button below to begin the assessment."
+msgstr ""
+
+#: src/dsetool/policy/browser/templates/start.pt:239
+#. Default: "Start"
+msgid "label_start_survey"
+msgstr ""
+
 #. AI-generated
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:365
 msgid ""

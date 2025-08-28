@@ -29,6 +29,116 @@ msgstr ""
 "Language-Name: Íslenska\n"
 "Preferred-Encodings: utf-8 latin1\n"
 
+#. Default: "The questions are divided into 3 parts. The first part is about
+#. identifying potential chemical risks in your company. The second part is
+#. about the routines for chemical risk management. And the third part is
+#. about control measures to reduce chemical risks."
+#. AI-generated
+#: src/dsetool/policy/browser/templates/identification.pt:30
+msgid "intro_identification_dsetool"
+msgstr ""
+"Spurningarnar eru skiptar í 3 hluta. Fyrstu hluti fjallar um að þekkja "
+"hugsanlega efnaáhættu í fyrirtækinu þínu. Seinni hluti fjallar um venjur í "
+"stjórnun á efnaáhættu. Þriðji hluti fjallar um stjórnandi aðgerðir til að "
+"draga úr efnaáhættu."
+
+#. Default: "Start Risk Identification"
+#. AI-generated
+#: src/dsetool/policy/browser/templates/identification.pt:38
+msgid "label_start_identification"
+msgstr "Byrjaðu á Áhættugreiningu"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:100
+msgid ""
+"Seven questions will address your current practices with regard to dangerous"
+" substances and chemical products. If improvements are needed, you will "
+"immediately get tips and advice on what you need to do and on how you can do"
+" it as easily and efficiently as possible."
+msgstr ""
+"Sjö spurningar munu fjalla um núverandi viðmiðun þína varðandi hættulegar "
+"efnaútgáfur og efnavörur. Ef þörf er á að batna, munu þú strax fá "
+"ráðleggingar og ráð um hvað þú þarft að gera og hvernig þú getur gert það "
+"eins einfaldlega og hagkvæmt sem mögulegt er."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:107
+msgid ""
+"This is an interactive questionnaire and the questions might change related "
+"to given answers. You can use the skip button if you are not sure about an "
+"answer yet and get back to the question later. You will also receive a "
+"report containing your answers, recommendations and advice."
+msgstr ""
+"Þetta er samspilandi spurningalisti og spurningarnar gætu breyst miðað við "
+"gefnar svör. Þú getur notað sleppitakka ef þú ert ekki viss um svar ennþá og"
+" farið aftur að spurningu síðar. Þú munt einnig fá skýrslu sem inniheldur "
+"svörin þín, mælingar og ráð."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:113
+msgid "Let's quickly check if this tool might be helpful for you&hellip;"
+msgstr "Skulum skoða fljótt hvort þetta verkfæri gæti nýst þér &hellip;"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:114
+msgid ""
+"Do you use, handle or store chemical products or chemical substances at "
+"work? Such products will be labelled with one or more of the currently used "
+"hazard pictograms (black and white in red frames) depicted below."
+msgstr ""
+"Notarðu, meðhöndlur eða geymir þú efnavörur eða efni í vinnunni? Slíkar "
+"vörur verða merktar með einum eða fleiri af núverandi hættumerkjum (svart og"
+" hvítt í rauðum ramma) sem sýnd eru hér að neðan."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:117
+#: src/dsetool/policy/browser/templates/start.pt:145
+msgid "Current hazard pictograms:"
+msgstr "Núverandi hættumerki:"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:142
+msgid ""
+"Are you sure that you have no chemical products or substances labelled with "
+"a hazard pictogram? Examples of chemical products with such labels, which "
+"can be found in most workplaces, are detergents, adhesives and paints."
+msgstr ""
+"Ertu viss um að þú hafir engar efnavörur eða efni sem eru merkt með "
+"hættumerki? Dæmi um efnavörur með slíkum merkjum, sem hægt er að finna á "
+"flestum vinnustöðum, eru hreinsiefni, lím og málningarvörur."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:169
+msgid ""
+"Could air pollution of any kind be generated, for example dust from grinding"
+" or sanding, combustion products such as exhausts and fumes, or degradation "
+"products from chemical products or hazardous waste?"
+msgstr ""
+"Gæti loftmengi af einhverju tagi myndast, tildæmis ryk úr slípun eða "
+"sandblásturs, brennsluvörur sem útblástur og reyk eða niðurbrotsvörur úr "
+"efnavörum eða hættulegum úrgangi?"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:194
+msgid "There is no need to continue with the survey."
+msgstr "Það er ekki nauðsynlegt að halda áfram með könnunina."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:208
+msgid "It seems it would make sense for you to do this assessment."
+msgstr "Það virðist gagnlegt að þú gerir þessa mat."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:211
+msgid "Click the start button below to begin the assessment."
+msgstr "Smelltu á byrjunarhnappinn hér að neðan til að byrja matið."
+
+#. Default: "Start"
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:239
+msgid "label_start_survey"
+msgstr "Byrja"
+
 #. AI-generated
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:365
 msgid ""

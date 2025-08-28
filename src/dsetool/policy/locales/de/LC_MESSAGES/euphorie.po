@@ -26,9 +26,125 @@ msgstr ""
 "Domain: euphorie\n"
 "Generated-By: zope/app/locales/extract.py\n"
 "Language-Code: de\n"
-"Language: de\n"
 "Language-Name: Deutsch\n"
 "Preferred-Encodings: utf-8 latin1\n"
+
+#. Default: "The questions are divided into 3 parts. The first part is about
+#. identifying potential chemical risks in your company. The second part is
+#. about the routines for chemical risk management. And the third part is
+#. about control measures to reduce chemical risks."
+#. AI-generated
+#: src/dsetool/policy/browser/templates/identification.pt:30
+msgid "intro_identification_dsetool"
+msgstr ""
+"Die Fragen sind in 3 Teile geteilt. Der erste Teil handelt von der "
+"Identifizierung möglicher chemischer Risiken in Ihrem Unternehmen. Der "
+"zweite Teil betrifft die Routinen zur chemischen Risikomanagement. Und der "
+"dritte Teil handelt von Kontrollmaßnahmen zur Reduzierung chemischer "
+"Risiken."
+
+#. Default: "Start Risk Identification"
+#. AI-generated
+#: src/dsetool/policy/browser/templates/identification.pt:38
+msgid "label_start_identification"
+msgstr "Risikoidentifizierung starten"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:100
+msgid ""
+"Seven questions will address your current practices with regard to dangerous"
+" substances and chemical products. If improvements are needed, you will "
+"immediately get tips and advice on what you need to do and on how you can do"
+" it as easily and efficiently as possible."
+msgstr ""
+"Sieben Fragen beschäftigen sich mit Ihren aktuellen Praktiken in Bezug auf "
+"gefährliche Stoffe und chemische Produkte. Wenn Verbesserungen notwendig "
+"sind, erhalten Sie sofort Tipps und Ratschläge, was Sie tun müssen und wie "
+"Sie dies so einfach und effizient wie möglich tun können."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:107
+msgid ""
+"This is an interactive questionnaire and the questions might change related "
+"to given answers. You can use the skip button if you are not sure about an "
+"answer yet and get back to the question later. You will also receive a "
+"report containing your answers, recommendations and advice."
+msgstr ""
+"Dies ist ein interaktiver Fragebogen und die Fragen könnten sich in Bezug "
+"auf gegebene Antworten ändern. Sie können die Überspringen-Taste verwenden, "
+"wenn Sie sich über eine Antwort noch nicht sicher sind und später zur Frage "
+"zurückkehren. Sie erhalten auch einen Bericht mit Ihren Antworten, "
+"Empfehlungen und Ratschlägen."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:113
+msgid "Let's quickly check if this tool might be helpful for you&hellip;"
+msgstr ""
+"Lassen Sie uns schnell überprüfen, ob dieses Tool für Sie hilfreich sein "
+"könnte&hellip;"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:114
+msgid ""
+"Do you use, handle or store chemical products or chemical substances at "
+"work? Such products will be labelled with one or more of the currently used "
+"hazard pictograms (black and white in red frames) depicted below."
+msgstr ""
+"Verwenden, handhaben oder lagern Sie chemische Produkte oder chemische "
+"Stoffe bei der Arbeit? Solche Produkte werden mit einem oder mehreren der "
+"derzeit verwendeten Gefahrenpiktogramme (schwarz und weiß in roten Rahmen) "
+"gekennzeichnet, die unten dargestellt sind."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:117
+#: src/dsetool/policy/browser/templates/start.pt:145
+msgid "Current hazard pictograms:"
+msgstr "Aktuelle Gefahrenpiktogramme:"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:142
+msgid ""
+"Are you sure that you have no chemical products or substances labelled with "
+"a hazard pictogram? Examples of chemical products with such labels, which "
+"can be found in most workplaces, are detergents, adhesives and paints."
+msgstr ""
+"Sind Sie sicher, dass Sie keine chemischen Produkte oder Stoffe haben, die "
+"mit einem Gefahrenpiktogramm gekennzeichnet sind? Beispiele für chemische "
+"Produkte mit solchen Etiketten, die in den meisten Arbeitsstätten zu finden "
+"sind, sind Reinigungsmittel, Klebstoffe und Farben."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:169
+msgid ""
+"Could air pollution of any kind be generated, for example dust from grinding"
+" or sanding, combustion products such as exhausts and fumes, or degradation "
+"products from chemical products or hazardous waste?"
+msgstr ""
+"Könnte eine Luftverschmutzung irgendeiner Art entstehen, zum Beispiel Staub "
+"beim Schleifen oder Sandstrahlen, Verbrennungsprodukte wie Abgase und Rauch "
+"oder Zersetzungsprodukte aus chemischen Produkten oder gefährlichen "
+"Abfällen?"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:194
+msgid "There is no need to continue with the survey."
+msgstr "Es ist nicht notwendig, die Umfrage fortzusetzen."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:208
+msgid "It seems it would make sense for you to do this assessment."
+msgstr "Es scheint sinnvoll zu sein, dass Sie diese Bewertung vornehmen."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:211
+msgid "Click the start button below to begin the assessment."
+msgstr "Klicken Sie auf die Start-Taste unten, um die Bewertung zu beginnen."
+
+#. Default: "Start"
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:239
+msgid "label_start_survey"
+msgstr "Starten"
 
 #. AI-generated
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:365

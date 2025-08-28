@@ -97,24 +97,26 @@
                             }
               </style>
               <article class="pat-rich">
-                <section tal:condition="python:len(context.aq_parent.objectIds()) &lt; 3">
+                <section tal:condition="python:len(context.aq_parent.objectIds()) &lt; 3"
+                         i18n:translate=""
+                >
                                 Seven questions will address your current practices with regard to dangerous substances
                                 and chemical products. If improvements are needed, you will immediately get tips and
                                 advice on what you need to do and on how you can do it as easily and efficiently as
                                 possible.
                 </section>
                 <tal:long-tool tal:condition="python:len(context.aq_parent.objectIds()) &gt;= 3">
-                  <section>
+                  <section i18n:translate="">
                                     This is an interactive questionnaire and the questions might change related to given
                                     answers. You can use the skip button if you are not sure about an answer yet and get
                                     back to the question later. You will also receive a report containing your answers,
                                     recommendations and advice.
                   </section>
-                  <h2>Let's quickly check if this tool might be helpful for you&hellip;</h2>
-                  <p>Do you use, handle or store chemical products or chemical substances at work? Such
+                  <h2 i18n:translate="">Let's quickly check if this tool might be helpful for you&hellip;</h2>
+                  <p i18n:translate="">Do you use, handle or store chemical products or chemical substances at work? Such
                                     products will be labelled with one or more of the currently used hazard pictograms
                     (black and white in red frames) depicted below.</p>
-                  <p><strong>Current hazard pictograms:</strong></p>
+                  <p><strong i18n:translate="">Current hazard pictograms:</strong></p>
                   <figure>
                     <img src="/dangerous-substances/sites/default/files/HP1_v2.png" />
                   </figure>
@@ -125,13 +127,13 @@
                                type="radio"
                                value="yes"
                                data-pat-scroll="selector: #air-pollutants; trigger: click; delay: 200"
-                        />Yes</label>
+                        /><tal:i18n i18n:translate="">Yes</tal:i18n></label>
                       <label class="no unchecked"><input class="pat-scroll"
                                name="answer:list"
                                type="radio"
                                value="no"
                                data-pat-scroll="selector: #are-you-sure; trigger: click; delay: 200"
-                        />No</label>
+                        /><tal:i18n i18n:translate="">No</tal:i18n></label>
                     </fieldset>
                   </fieldset>
 
@@ -139,10 +141,10 @@
                             id="are-you-sure"
                             data-pat-depends="condition: answer:list = no"
                   >
-                    <p>Are you sure that you have no chemical products or substances labelled with a
+                    <p i18n:translate="">Are you sure that you have no chemical products or substances labelled with a
                                         hazard pictogram? Examples of chemical products with such labels, which can be
                       found in most workplaces, are detergents, adhesives and paints.</p>
-                    <p><strong>Current hazard pictograms:</strong></p>
+                    <p><strong i18n:translate="">Current hazard pictograms:</strong></p>
                     <figure>
                       <img src="/dangerous-substances/sites/default/files/HP1_v2.png" />
                     </figure>
@@ -152,13 +154,13 @@
                                type="radio"
                                value="yes"
                                data-pat-scroll="selector: #air-pollutants; trigger: click; delay: 200"
-                        />Yes</label>
+                        /><tal:i18n i18n:translate="">Yes</tal:i18n></label>
                       <label class="no unchecked"><input class="pat-scroll"
                                name="answer2:list"
                                type="radio"
                                value="no"
                                data-pat-scroll="selector: #please-do-continue; trigger: click; delay: 200"
-                        />No</label>
+                        /><tal:i18n i18n:translate="">No</tal:i18n></label>
                     </fieldset>
                   </fieldset>
 
@@ -166,7 +168,7 @@
                             id="air-pollutants"
                             data-pat-depends="condition: (answer:list = no and answer2:list = yes ); transition: slide"
                   >
-                    <p>Could air pollution of any kind be generated, for example dust from grinding or
+                    <p i18n:translate="">Could air pollution of any kind be generated, for example dust from grinding or
                                         sanding, combustion products such as exhausts and fumes, or degradation products
                       from chemical products or hazardous waste?</p>
                     <fieldset class="pat-checklist radio">
@@ -175,13 +177,13 @@
                                type="radio"
                                value="yes"
                                data-pat-scroll="selector: #please-do-continue; trigger: click; delay: 200"
-                        />Yes</label>
+                        /><tal:i18n i18n:translate="">Yes</tal:i18n></label>
                       <label class="no unchecked"><input class="pat-scroll"
                                name="airpollution:list"
                                type="radio"
                                value="no"
                                data-pat-scroll="selector: #no-need-to-continue; trigger: click; delay: 200"
-                        />No</label>
+                        /><tal:i18n i18n:translate="">No</tal:i18n></label>
                     </fieldset>
                   </fieldset>
 
@@ -191,10 +193,11 @@
                        data-pat-depends="condition: answer:list = no and answer2:list = yes and airpollution:list = no"
                   >
                     <p class="pat-message notice">
-                      <strong>There is no need to continue with the survey.</strong>
+                      <strong i18n:translate="">There is no need to continue with the survey.</strong>
                       <br /><br />
                       <a class="pat-button"
                          href="${request/URL}/../../../../"
+                         i18n:translate="label_exit"
                       >Exit</a>
                     </p>
                   </div>
@@ -204,10 +207,10 @@
                        data-pat-depends="condition: answer:list = yes or (answer:list = no and answer2:list = no) or (answer:list = no and answer2:list = yes and airpollution:list = yes)"
                   >
                     <p class="pat-message notice">
-                      <strong>It seems it would make sense for you to do this assessment.
+                      <strong i18n:translate="">It seems it would make sense for you to do this assessment.
                       </strong>
                       <br /><br />
-                                        Click the start button below to begin the assessment.
+                      <tal:i18n i18n:translate="">Click the start button below to begin the assessment.</tal:i18n>
                     </p>
                   </div>
                 </tal:long-tool>
