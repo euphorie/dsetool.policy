@@ -290,7 +290,8 @@
               <a href="#registration"
                  i18n:translate="header_register"
               >Register</a>
-              <a href="#more-information"
+              <a href="${webhelpers/get_about_url}"
+                 target="_blank"
                  i18n:translate="label_learn_more"
               >Learn more</a>
             </p>
