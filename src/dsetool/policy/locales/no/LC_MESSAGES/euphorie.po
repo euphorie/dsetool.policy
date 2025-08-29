@@ -13,11 +13,11 @@
 # ############################################################################
 msgid ""
 msgstr ""
-"Project-Id-Version: Unknown\n"
+"Project-Id-Version: euphorie dsetool\n"
 "POT-Creation-Date: Wed Aug 27 08:58:34 2025\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
+"PO-Revision-Date: Wed Aug 27 08:58:34 2025\n"
+"Last-Translator: syslab.com GmbH <info@syslab.com>\n"
+"Language-Team: syslab.com GmbH <info@syslab.com>\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,9 +26,97 @@ msgstr ""
 "Domain: euphorie\n"
 "Generated-By: zope/app/locales/extract.py\n"
 "Language-Code: no\n"
-"Language: no\n"
 "Language-Name: Norsk\n"
 "Preferred-Encodings: utf-8 latin1\n"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:100
+msgid ""
+"Seven questions will address your current practices with regard to dangerous"
+" substances and chemical products. If improvements are needed, you will "
+"immediately get tips and advice on what you need to do and on how you can do"
+" it as easily and efficiently as possible."
+msgstr ""
+"Syv spørsmål vil adressere dine nåværende praksis med hensyn til farlige "
+"stoffer og kjemiske produkter. Hvis forbedringer er nødvendige, vil du "
+"umiddelbart få tips og råd om hva du trenger å gjøre og hvordan du kan gjøre"
+" det så enkelt og effektivt som mulig."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:107
+msgid ""
+"This is an interactive questionnaire and the questions might change related "
+"to given answers. You can use the skip button if you are not sure about an "
+"answer yet and get back to the question later. You will also receive a "
+"report containing your answers, recommendations and advice."
+msgstr ""
+"Dette er et interaktivt spørreskjema og spørsmålene kan endres i forhold til"
+" gitte svar. Du kan bruke hopp over-knappen hvis du ikke er sikker på et "
+"svar ennå og komme tilbake til spørsmålet senere. Du vil også motta en "
+"rapport som inneholder dine svar, anbefalinger og råd."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:113
+msgid "Let's quickly check if this tool might be helpful for you&hellip;"
+msgstr ""
+"La oss raskt sjekke om dette verktøyet kan være nyttig for deg&hellip;"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:114
+msgid ""
+"Do you use, handle or store chemical products or chemical substances at "
+"work? Such products will be labelled with one or more of the currently used "
+"hazard pictograms (black and white in red frames) depicted below."
+msgstr ""
+"Bruker du, håndterer eller lagrer du kjemiske produkter eller kjemiske "
+"stoffer på jobben? Slike produkter vil bli merket med ett eller flere av de "
+"nå brukte farepiktogrammene (svart og hvitt i røde rammer) som er avbildet "
+"nedenfor."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:117
+#: src/dsetool/policy/browser/templates/start.pt:145
+msgid "Current hazard pictograms:"
+msgstr "Nåværende farepiktogrammer:"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:142
+msgid ""
+"Are you sure that you have no chemical products or substances labelled with "
+"a hazard pictogram? Examples of chemical products with such labels, which "
+"can be found in most workplaces, are detergents, adhesives and paints."
+msgstr ""
+"Er du sikker på at du ikke har noen kjemiske produkter eller stoffer merket "
+"med et farepiktogram? Eksempler på kjemiske produkter med slike etiketter, "
+"som kan finnes på de fleste arbeidsplasser, er rengjøringsmidler, lim og "
+"maling."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:169
+msgid ""
+"Could air pollution of any kind be generated, for example dust from grinding"
+" or sanding, combustion products such as exhausts and fumes, or degradation "
+"products from chemical products or hazardous waste?"
+msgstr ""
+"Kunne luftforurensning av noe slag bli generert, for eksempel støv fra "
+"sliping eller slipting, forbrenningsprodukter som eksos og røyk, eller "
+"nedbrytningsprodukter fra kjemiske produkter eller farlig avfall?"
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:194
+msgid "There is no need to continue with the survey."
+msgstr "Det er ikke nødvendig å fortsette med undersøkelsen."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:208
+msgid "It seems it would make sense for you to do this assessment."
+msgstr ""
+"Det ser ut som det ville være fornuftig for deg å gjøre denne vurderingen."
+
+#. AI-generated
+#: src/dsetool/policy/browser/templates/start.pt:211
+msgid "Click the start button below to begin the assessment."
+msgstr "Klikk på startknappen nedenfor for å starte vurderingen."
 
 #. AI-generated
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:365
