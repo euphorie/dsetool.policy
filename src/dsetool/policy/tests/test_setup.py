@@ -1,10 +1,12 @@
 """Setup tests for this package."""
 
 from dsetool.policy import testing
+from Persistence.mapping import PersistentMapping
 from plone import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
 from plone.base.utils import get_installer
+from Products.CMFPlone.WorkflowTool import WorkflowTool
 from zope.component import getMultiAdapter
 from zope.publisher.interfaces import IPublishTraverse
 
@@ -44,6 +46,24 @@ class TestSetup(unittest.TestCase):
             ),
             True,
         )
+
+    def test_workflows_assignments(self):
+        """Check the workflow assignment for the custom dsetool types"""
+        portal_types = [
+            "euphorie.choice",
+            "euphorie.recommendation",
+            "euphorie.option",
+        ]
+
+        pw: WorkflowTool = api.portal.get_tool("portal_workflow")
+        chains_by_type: PersistentMapping = pw._chains_by_type  # type: ignore
+
+        for portal_type in portal_types:
+            self.assertTupleEqual(
+                chains_by_type[portal_type],
+                (),
+                f"Workflow chain for {portal_type} is not empty",
+            )
 
 
 class TestUninstall(unittest.TestCase):
