@@ -19,4 +19,4 @@ This package provides some views to be used in Quaive for some content types (Ch
 ### Custom workflow for the sector type
 
 The country managers should be able to do much less than what they do on regular Euphorie installations.
-In particular, they should be able to just maintain, extend an update the recommendation texts in the backend.
+In particular, they should be able to just maintain, extend and update the recommendation texts in the backend.
