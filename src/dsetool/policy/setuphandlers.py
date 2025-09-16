@@ -1,3 +1,4 @@
+from plone import api
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.interface import implementer
 
@@ -45,6 +46,23 @@ def post_install(context):
     # Do something at the end of the installation of this package.
 
 
+def _clean_up_plone_displayed_types():
+    """Remove dsetool types from the plone.displayed_types registry record."""
+    dsetool_types = {
+        "euphorie.choice",
+        "euphorie.recommendation",
+        "euphorie.option",
+    }
+    displayed_types: tuple = api.portal.get_registry_record(
+        "plone.displayed_types", default=()
+    )
+    new_displayed_types = tuple(
+        type for type in displayed_types if type not in dsetool_types
+    )
+    if new_displayed_types != displayed_types:
+        api.portal.set_registry_record("plone.displayed_types", new_displayed_types)
+
+
 def post_uninstall(context):
     """Uninstall script"""
-    # Do something at the end of the uninstallation of this package.
+    _clean_up_plone_displayed_types()
