@@ -65,6 +65,19 @@ class TestSetup(unittest.TestCase):
                 f"Workflow chain for {portal_type} is not empty",
             )
 
+    def test_plone_displayed_types(self):
+        """Check that the custom dsetool types are in the Plone displayed types list."""
+        dsetool_types = (
+            "euphorie.choice",
+            "euphorie.recommendation",
+            "euphorie.option",
+        )
+        displayed_types = api.portal.get_registry_record(
+            "plone.displayed_types", default=()
+        )
+        for type in dsetool_types:
+            self.assertIn(type, displayed_types, f"{type!r} not in displayed types")
+
 
 class TestUninstall(unittest.TestCase):
     layer = testing.DSETOOL_POLICY_INTEGRATION_TESTING
@@ -87,3 +100,20 @@ class TestUninstall(unittest.TestCase):
         from plone.browserlayer import utils
 
         self.assertNotIn(interfaces.IDSEToolPolicyLayer, utils.registered_layers())
+
+    def test_plone_displayed_types(self):
+        """Check that the custom dsetool types are not
+        in the Plone displayed types list anymore after the product is uninstalled
+        """
+        dsetool_types = (
+            "euphorie.choice",
+            "euphorie.recommendation",
+            "euphorie.option",
+        )
+        displayed_types = api.portal.get_registry_record(
+            "plone.displayed_types", default=()
+        )
+        for type in dsetool_types:
+            self.assertNotIn(
+                type, displayed_types, f"{type!r} still in displayed types"
+            )
