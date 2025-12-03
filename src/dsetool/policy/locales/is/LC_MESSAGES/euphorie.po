@@ -50,15 +50,12 @@ msgid ""
 "answer yet and get back to the question later. You will also receive a "
 "report containing your answers, recommendations and advice."
 msgstr ""
-"Þetta er samspilandi spurningalisti og spurningarnar gætu breyst miðað við "
-"gefnar svör. Þú getur notað sleppitakka ef þú ert ekki viss um svar ennþá og"
-" farið aftur að spurningu síðar. Þú munt einnig fá skýrslu sem inniheldur "
-"svörin þín, mælingar og ráð."
+"Þetta er gagnvirkur spurningalisti og spurningarnar gætu breyst miðað við gefin svör. Þú getur sleppt að svara ef þú ert ekki viss um svar ennþá og snúið aftur að spurningunni síðar. Þú færð einnig skýrslu með svörunum þínum og ráðleggingar."
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:113
 msgid "Let's quickly check if this tool might be helpful for you&hellip;"
-msgstr "Skulum skoða fljótt hvort þetta verkfæri gæti nýst þér &hellip;"
+msgstr "Við skulum snöggvast skoða  hvort þetta verkfæri gæti nýst þér&hellip;"
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:114
@@ -67,9 +64,7 @@ msgid ""
 "work? Such products will be labelled with one or more of the currently used "
 "hazard pictograms (black and white in red frames) depicted below."
 msgstr ""
-"Notarðu, meðhöndlur eða geymir þú efnavörur eða efni í vinnunni? Slíkar "
-"vörur verða merktar með einum eða fleiri af núverandi hættumerkjum (svart og"
-" hvítt í rauðum ramma) sem sýnd eru hér að neðan."
+"Notar, meðhöndlar eða geymir þú efnavörur eða efni í vinnunni? Slíkar vörur eru merktar með einum eða fleiri af núgildandi hættumerkjum (svört og hvít í rauðum römmum) sem sýnd eru hér að neðan."
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:117
@@ -84,9 +79,7 @@ msgid ""
 "a hazard pictogram? Examples of chemical products with such labels, which "
 "can be found in most workplaces, are detergents, adhesives and paints."
 msgstr ""
-"Ertu viss um að þú hafir engar efnavörur eða efni sem eru merkt með "
-"hættumerki? Dæmi um efnavörur með slíkum merkjum, sem hægt er að finna á "
-"flestum vinnustöðum, eru hreinsiefni, lím og málningarvörur."
+"Ertu viss um að þú hafir engar efnavörur eða efni sem eru merkt með hættumerki? Dæmi um efnavörur með slíkum merkjum, sem hægt er að finna á flestum vinnustöðum, eru hreinsiefni, lím og málningarvörur."
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:169
@@ -95,9 +88,7 @@ msgid ""
 " or sanding, combustion products such as exhausts and fumes, or degradation "
 "products from chemical products or hazardous waste?"
 msgstr ""
-"Gæti loftmengi af einhverju tagi myndast, tildæmis ryk úr slípun eða "
-"sandblásturs, brennsluvörur sem útblástur og reyk eða niðurbrotsvörur úr "
-"efnavörum eða hættulegum úrgangi?"
+"Gæti loftmengun af einhverju tagi myndast, til dæmis ryk við mölun eða slípun , útblástursefni og reykur eða niðurbrotsefni efnavara eða hættulegs úrgangs?"
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:194
@@ -107,12 +98,12 @@ msgstr "Það er ekki nauðsynlegt að halda áfram með könnunina."
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:208
 msgid "It seems it would make sense for you to do this assessment."
-msgstr "Það virðist gagnlegt að þú gerir þessa mat."
+msgstr "Það virðist skynsamlegt fyrir þig að meta þetta."
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:211
 msgid "Click the start button below to begin the assessment."
-msgstr "Smelltu á byrjunarhnappinn hér að neðan til að byrja matið."
+msgstr "Smelltu á upphafshnappinn hér að neðan til að hefja matið."
 
 #. AI-generated
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:365

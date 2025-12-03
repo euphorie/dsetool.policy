@@ -50,16 +50,12 @@ msgid ""
 "answer yet and get back to the question later. You will also receive a "
 "report containing your answers, recommendations and advice."
 msgstr ""
-"Acesta este un chestionar interactiv și întrebările s-ar putea schimba în "
-"funcție de răspunsurile date. Puteți folosi butonul de salt dacă nu sunteți "
-"sigur de un răspuns încă și puteți reveni la întrebare mai târziu. Veți "
-"primi de asemenea un raport care conține răspunsurile dumneavoastră, "
-"recomandări și sfaturi."
+"Acesta este un chestionar interactiv și întrebările s-ar putea schimba în funcție de răspunsurile date. Puteți folosi butonul de salt dacă nu sunteți încă sigur de un răspuns și puteți reveni la întrebare mai târziu. Veți primi de asemenea un raport care conține răspunsurile dumneavoastră, recomandări și sfaturi."
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:113
 msgid "Let's quickly check if this tool might be helpful for you&hellip;"
-msgstr "Să verificăm rapid dacă acest instrument v-ar putea fi de ajutor..."
+msgstr "Să verificăm rapid dacă acest instrument v-ar putea fi de ajutor&hellip;"
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:114
@@ -68,10 +64,7 @@ msgid ""
 "work? Such products will be labelled with one or more of the currently used "
 "hazard pictograms (black and white in red frames) depicted below."
 msgstr ""
-"Utilizați, manevrați sau depozitați produse chimice sau substanțe chimice la"
-" locul de muncă? Astfel de produse vor fi etichetate cu unul sau mai multe "
-"dintre pictogramele de pericol folosite în prezent (negru și alb în cadre "
-"roșii) reprezentate mai jos."
+"Utilizați, manipulați  sau depozitați produse chimice sau substanțe chimice la locul de muncă? Aproape toate  astfel de produse sunt etichetate cu unul sau mai multe dintre pictogramele de pericol folosite în prezent (negru și alb în cadre roșii) reprezentate mai jos."
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:117
@@ -98,10 +91,7 @@ msgid ""
 " or sanding, combustion products such as exhausts and fumes, or degradation "
 "products from chemical products or hazardous waste?"
 msgstr ""
-"Ar putea fi generată poluarea aerului de orice fel, de exemplu praf din "
-"șlefuire sau polizare, produse de combustie, cum ar fi gazele de eșapament "
-"și fumurile, sau produse de degradare provenite de la produse chimice sau "
-"deșeuri periculoase?"
+"Ar putea fi generată poluarea aerului, de orice fel, de exemplu praf din măcinare sau șlefuire , produse de combustie, cum ar fi gazele de eșapament și fumurile, sau produse de degradare provenite de la produse chimice sau deșeuri periculoase?"
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:194
@@ -111,8 +101,7 @@ msgstr "Nu este nevoie să continuați cu sondajul."
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:208
 msgid "It seems it would make sense for you to do this assessment."
-msgstr ""
-"Se pare că ar fi util pentru dumneavoastră să faceți această evaluare."
+msgstr "Se pare că ar fi util pentru dumneavoastră să faceți această evaluare."
 
 #. AI-generated
 #: src/dsetool/policy/browser/templates/start.pt:211
