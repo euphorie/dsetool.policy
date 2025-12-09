@@ -1,3 +1,4 @@
+prune news
 include *.md
 include *.yaml
 recursive-include src *.py
