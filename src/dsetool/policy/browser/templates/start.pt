@@ -144,10 +144,6 @@
                     <p i18n:translate="">Are you sure that you have no chemical products or substances labelled with a
                                         hazard pictogram? Examples of chemical products with such labels, which can be
                       found in most workplaces, are detergents, adhesives and paints.</p>
-                    <p><strong i18n:translate="">Current hazard pictograms:</strong></p>
-                    <figure>
-                      <img src="/dangerous-substances/sites/default/files/HP1_v2.png" />
-                    </figure>
                     <fieldset class="pat-checklist radio pat-scroll">
                       <label class="yes unchecked"><input class="pat-scroll"
                                name="answer2:list"
