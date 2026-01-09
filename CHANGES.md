@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+1.0.2 (2026-01-09)
+
+### Bug fixes:
+
+- Removed the icon row plus headline from the second question on the intro page question block. ([Issue #4272](https://github.com/syslabcom/scrum/issues/4272))
+
+
 1.0.1 (2025-12-09)
 
 ### New features:
