@@ -22,11 +22,9 @@ class ListQuestions(BrowserView):
         choice_brains = [i for i in brains if i.portal_type == "euphorie.choice"]
         question_list = []
         for module_brain in module_brains:
-            module = module_brain.getObject()
             module_choices = []
             for choice_brain in choice_brains:
                 if module_brain.getPath() in choice_brain.getPath():
                     module_choices.append(choice_brain)
-            module_choices.sort(key=lambda x: module.getObjectPosition(x.id))
             question_list += module_choices
         return [i.Title for i in question_list]
