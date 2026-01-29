@@ -821,7 +821,7 @@ msgid "verb_register"
 msgstr "Registruotis"
 
 msgid "Questions"
-msgstr ""
+msgstr "Klausimai"
 
 msgid "Quick Start"
-msgstr ""
+msgstr "Greita pradžia"

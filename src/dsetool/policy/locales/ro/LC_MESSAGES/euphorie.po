@@ -830,7 +830,7 @@ msgid "verb_register"
 msgstr "Înregistrați-vă"
 
 msgid "Questions"
-msgstr ""
+msgstr "întrebări"
 
 msgid "Quick Start"
-msgstr ""
+msgstr "Pornire rapidă"

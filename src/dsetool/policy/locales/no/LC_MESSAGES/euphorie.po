@@ -837,7 +837,7 @@ msgid "verb_register"
 msgstr "Registrer"
 
 msgid "Questions"
-msgstr ""
+msgstr "spørsmål"
 
 msgid "Quick Start"
-msgstr ""
+msgstr "Hurtigstart"

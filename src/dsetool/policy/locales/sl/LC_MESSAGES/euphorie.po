@@ -822,7 +822,7 @@ msgid "verb_register"
 msgstr "Registriraj se"
 
 msgid "Questions"
-msgstr ""
+msgstr "vprašanj"
 
 msgid "Quick Start"
-msgstr ""
+msgstr "Hitri začetek"

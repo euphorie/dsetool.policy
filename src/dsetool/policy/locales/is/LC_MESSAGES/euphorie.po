@@ -821,7 +821,7 @@ msgid "verb_register"
 msgstr "Skráðu þig"
 
 msgid "Questions"
-msgstr ""
+msgstr "Spurningar"
 
 msgid "Quick Start"
-msgstr ""
+msgstr "Fljótlegur"
