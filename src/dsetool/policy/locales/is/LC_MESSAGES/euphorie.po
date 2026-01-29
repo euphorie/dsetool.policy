@@ -819,3 +819,9 @@ msgstr "Byrjaðu nýja prufuskráningu"
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
 msgid "verb_register"
 msgstr "Skráðu þig"
+
+msgid "Questions"
+msgstr ""
+
+msgid "Quick Start"
+msgstr ""

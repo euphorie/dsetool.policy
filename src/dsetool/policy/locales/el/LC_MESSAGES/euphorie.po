@@ -788,3 +788,9 @@ msgstr "Ξεκινήστε μια νέα δοκιμαστική συνεδρία
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
 msgid "verb_register"
 msgstr "Εγγραφείτε"
+
+msgid "Questions"
+msgstr ""
+
+msgid "Quick Start"
+msgstr ""

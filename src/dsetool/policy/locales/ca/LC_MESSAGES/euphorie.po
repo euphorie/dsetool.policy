@@ -789,3 +789,9 @@ msgstr "Iniciar una nova sessió de prova"
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
 msgid "verb_register"
 msgstr "Registra't"
+
+msgid "Questions"
+msgstr ""
+
+msgid "Quick Start"
+msgstr ""
