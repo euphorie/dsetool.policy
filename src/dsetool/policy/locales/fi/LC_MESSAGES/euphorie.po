@@ -774,3 +774,9 @@ msgstr "Aloita uusi testisessio"
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
 msgid "verb_register"
 msgstr "Rekisteröidy"
+
+msgid "Questions"
+msgstr ""
+
+msgid "Quick Start"
+msgstr ""

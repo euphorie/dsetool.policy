@@ -822,3 +822,9 @@ msgstr "Alusta uut testimisseanssi"
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
 msgid "verb_register"
 msgstr "Registreeru"
+
+msgid "Questions"
+msgstr "küsimust"
+
+msgid "Quick Start"
+msgstr "Kiire algus"

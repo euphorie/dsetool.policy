@@ -835,3 +835,9 @@ msgstr "Start en ny testøkt"
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
 msgid "verb_register"
 msgstr "Registrer"
+
+msgid "Questions"
+msgstr "spørsmål"
+
+msgid "Quick Start"
+msgstr "Hurtigstart"

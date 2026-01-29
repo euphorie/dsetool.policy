@@ -828,3 +828,9 @@ msgstr "Începeți o nouă sesiune de testare"
 #: dsetool.policy/src/dsetool/policy/browser/overrides/euphorie.client.browser.templates.login.pt:412
 msgid "verb_register"
 msgstr "Înregistrați-vă"
+
+msgid "Questions"
+msgstr "întrebări"
+
+msgid "Quick Start"
+msgstr "Pornire rapidă"

@@ -378,3 +378,8 @@ msgstr ""
 msgid "label_start_survey"
 msgstr ""
 
+msgid "Questions"
+msgstr ""
+
+msgid "Quick Start"
+msgstr ""
