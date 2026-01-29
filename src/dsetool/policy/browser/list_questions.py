@@ -13,11 +13,9 @@ class ListQuestions(BrowserView):
 
     def question_titles(self):
         self.set_language()
-        path = "/".join(self.context.getPhysicalPath())
-        pc = api.portal.get_tool("portal_catalog")
-        modules = pc.searchResults(
+        brains = api.content.find(
+            context=self.context,
             object_provides="euphorie.content.module.IModule",
-            path={"query": path},
             sort_on="getObjPositionInParent",
         )
         question_list = []
