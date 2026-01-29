@@ -6,26 +6,27 @@ from zope.publisher.browser import BrowserView
 class ListQuestions(BrowserView):
     """List all the questions for this survey"""
 
-    def set_language(self):
+    def __call__(self):
         utils.setLanguage(
             self.request, self.context, getattr(self.context, "language", None)
         )
+        return self.index()
 
     def question_titles(self):
-        self.set_language()
         brains = api.content.find(
-            context=self.context,
-            object_provides="euphorie.content.module.IModule",
+            context = self.context,
+            portal_type = ["euphorie.module", "euphorie.choice"],
             sort_on="getObjPositionInParent",
         )
+        module_brains = [i for i in brains if i.portal_type == "euphorie.module"]
+        choice_brains = [i for i in brains if i.portal_type == "euphorie.choice"]
         question_list = []
-        for module in modules:
-            module_path = module.getPath()
-            questions = pc.searchResults(
-                object_provides="euphorie.content.choice.IChoice",
-                path={"query": module_path},
-                sort_on="getObjPositionInParent",
-            )
-            for question in questions:
-                question_list.append(question.Title)
-        return question_list
+        for module_brain in module_brains:
+            module = module_brain.getObject()
+            module_choices = []
+            for choice_brain in choice_brains:
+                if module_brain.getPath() in choice_brain.getPath():
+                    module_choices.append(choice_brain)
+            module_choices.sort(key=lambda x: module.getObjectPosition(x.id))
+            question_list += module_choices
+        return [i.Title for i in question_list]
