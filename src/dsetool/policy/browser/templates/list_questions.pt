@@ -33,6 +33,7 @@
             <a class="pat-button pat-switch continue focus"
                href="${context/absolute_url}"
                name="form.button.submit"
+               style="cursor: pointer;"
                type="submit"
                i18n:translate=""
             >Quick Start</a>
