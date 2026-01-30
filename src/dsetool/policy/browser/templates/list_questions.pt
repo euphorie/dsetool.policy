@@ -18,8 +18,7 @@
         >
           <article class="pat-rich">
             <h1>${context/Title}</h1>
-            <p tal:replace="structure context/introduction"></p>
-
+            <p>${structure: context/introduction}</p>
             <h2 i18n:translate="">Questions</h2>
             <ol>
               <li tal:repeat="title view/question_titles"><a href="${context/absolute_url}"
@@ -34,12 +33,14 @@
             <a class="pat-button pat-switch continue focus"
                href="${context/absolute_url}"
                name="form.button.submit"
+               style="cursor: pointer;"
                type="submit"
                i18n:translate=""
             >Quick Start</a>
           </div>
         </div>
-      </div></metal:slot>
+      </div>
+    </metal:slot>
 
   </body>
 

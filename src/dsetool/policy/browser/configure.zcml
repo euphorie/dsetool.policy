@@ -43,8 +43,8 @@
       name="list-questions"
       for="osha.oira.content.survey.IOSHASurveyMarker"
       class="dsetool.policy.browser.list_questions.ListQuestions"
-      permission="zope.Public"
       template="templates/list_questions.pt"
+      permission="zope.Public"
       />
 
 </configure>
