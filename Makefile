@@ -1,6 +1,7 @@
 EUPHORIE_POT   = src/dsetool/policy/locales/euphorie.pot
 EUPHORIE_PO_FILES = $(wildcard src/dsetool/policy/locales/*/LC_MESSAGES/euphorie.po)
 MO_FILES       = $(EUPHORIE_PO_FILES:.po=.mo) $(PLONE_PO_FILES:.po=.mo)
+TWINE_REPOSITORY ?= pypi
 
 TARGETS        = $(MO_FILES)
 SHELL=/bin/bash
@@ -22,3 +23,13 @@ $(EUPHORIE_PO_FILES): src/dsetool/policy/locales/euphorie.pot
 
 .PHONY: all clean pot
 .SUFFIXES: .po .mo
+
+
+.PHONY: release
+release:
+	@echo "Releasing to $(TWINE_REPOSITORY)"
+	@echo 'run `make release TWINE_REPOSITORY=<name>` to override'
+	TWINE_REPOSITORY=$(TWINE_REPOSITORY) uvx \
+		--from zest-releaser \
+		--with zest-releaser'[recommended]' \
+		--with zestreleaser-towncrier fullrelease
