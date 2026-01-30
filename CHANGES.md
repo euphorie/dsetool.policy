@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+1.0.3a2 (2026-01-30)
+
+# New features:
+
+- Add anonymous view to list all sub-questions, for integration with the static site ([Issue #4464](https://github.com/syslabcom/scrum/issues/4464))
+
+
 1.0.2 (2026-01-09)
 
 ### Bug fixes:
