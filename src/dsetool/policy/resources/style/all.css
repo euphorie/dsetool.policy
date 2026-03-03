@@ -25,7 +25,7 @@
 }
 
 #toolbar .title-group .logo {
-    background: url("EUOSHA_small_Negative.svg");
+    background-image: url("EUOSHA_small_Negative.svg");
 }
 
 .tooltip-container ul.menu li>a.tooltip-active-click, 
