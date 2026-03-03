@@ -24,6 +24,10 @@
     background-color: #076a6d;
 }
 
+#toolbar .title-group .logo {
+    background: url("EUOSHA_small_Negative.svg");
+}
+
 .tooltip-container ul.menu li>a.tooltip-active-click, 
 .tooltip-container ul.menu li>a:active, 
 .tooltip-container ul.menu li>label.tooltip-active-click, 
