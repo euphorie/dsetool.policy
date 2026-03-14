@@ -1,8 +1,10 @@
+from base64 import b64encode
 from collections import defaultdict
 from euphorie.client import MessageFactory as _
 from euphorie.client import utils
 from euphorie.client.browser.pdf import PdfView
 from euphorie.client.browser.report import ReportInventory
+from pkg_resources import resource_filename
 from plone import api
 from plone.memoize.view import memoize
 from urllib.parse import quote
@@ -17,6 +19,29 @@ class RecommendationsDictionary(ReportInventory):
         for choice in module.values():
             for option in choice.values():
                 yield option
+
+    @property
+    @memoize
+    def country_code(self):
+        return self.context.aq_parent.aq_parent.id
+
+    @property
+    @memoize
+    def cover(self):
+        filename = resource_filename(
+            "euphorie.client.browser", f"templates/dsetool_dictionary_cover_{self.country_code}.png"
+        )
+        with open(filename, "rb") as data:
+            return b64encode(data.read())
+
+    @property
+    @memoize
+    def logo(self):
+        filename = resource_filename(
+            "euphorie.client.browser", f"templates/dsetool_dictionary_logo_{self.country_code}.png"
+        )
+        with open(filename, "rb") as data:
+            return b64encode(data.read())
 
     @memoize
     def modules(self):
