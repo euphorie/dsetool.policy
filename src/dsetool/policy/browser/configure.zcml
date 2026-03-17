@@ -47,4 +47,19 @@
       permission="zope.Public"
       />
 
+  <browser:page
+      name="recommendations-dictionary"
+      for="osha.oira.content.survey.IOSHASurveyMarker"
+      class=".recommendations_dictionary.RecommendationsDictionary"
+      template="templates/recommendations_dictionary.pt"
+      permission="zope.Public"
+      />
+
+  <browser:page
+      name="recommendations-dictionary.pdf"
+      for="osha.oira.content.survey.IOSHASurveyMarker"
+      class=".recommendations_dictionary.RecommendationsDictionaryPDF"
+      permission="zope.Public"
+      />
+
 </configure>
