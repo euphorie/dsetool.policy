@@ -9,6 +9,17 @@
 
 <!-- towncrier release notes start -->
 
+1.1.0 (2026-03-18)
+
+# New features:
+
+- Add a PDF view which shows all recommendations ([Issue #4507](https://github.com/syslabcom/scrum/issues/4507))
+
+# Bug fixes:
+
+- Change logo for DSeTool ([Issue #4536](https://github.com/syslabcom/scrum/issues/4536))
+
+
 1.0.3 (2026-01-30)
 
 # New features:
