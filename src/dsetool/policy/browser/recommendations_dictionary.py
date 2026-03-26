@@ -13,11 +13,6 @@ class RecommendationsDictionary(ReportInventory):
     particular session, we display all the recommendations for all modules.
     """
 
-    def get_all_options(self, module):
-        for choice in module.values():
-            for option in choice.values():
-                yield option
-
     @property
     @memoize
     def country_code(self):

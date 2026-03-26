@@ -69,12 +69,15 @@ section.cover img {
             <p tal:condition="python:len(modules) &gt; 1"
                tal:replace="structure python:view.get_intro(module, idx=repeat.module.index)"
             ></p>
-            <tal:recom tal:repeat="option python:view.get_all_options(module)">
-              <p tal:repeat="recommendation option/values"
-                 tal:replace="structure recommendation/text"
-              >
-              </p>
-            </tal:recom>
+            <tal:choice tal:repeat="choice module/values">
+              <p tal:replace="structure choice/recommendation"/>
+              <tal:option repeat="option  choice/values">
+                <p tal:repeat="recommendation option/values"
+                   tal:replace="structure recommendation/text"
+                   >
+                </p>
+              </tal:option>
+            </tal:choice>
           </tal:module>
 
         </article>
