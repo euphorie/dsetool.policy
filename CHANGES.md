@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+1.2.0 (2026-05-06)
+
+# New features:
+
+- Include the new Recommendations field for Choice objects in the @@recommendations-dictionary.pdf view. ([Issue #4607](https://github.com/syslabcom/scrum/issues/4607))
+
+
 1.1.0 (2026-03-18)
 
 # New features:
