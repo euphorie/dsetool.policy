@@ -19,6 +19,7 @@
           <article class="pat-rich">
             <h1>${context/Title}</h1>
             <p>${structure: context/introduction}</p>
+            <p><strong><span i18n:translate="">Last update of recommendations and e-tool content</span>:</strong> <!-- replace by tool's publication date -->dd.mm.yyyy</p>
             <h2 i18n:translate="">Questions</h2>
             <ol>
               <li tal:repeat="title view/question_titles"><a href="${context/absolute_url}"
