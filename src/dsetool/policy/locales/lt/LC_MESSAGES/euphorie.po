@@ -825,3 +825,6 @@ msgstr "Klausimai"
 
 msgid "Quick Start"
 msgstr "Greita pradžia"
+
+msgid "Last update of recommendations and e-tool content"
+msgstr ""

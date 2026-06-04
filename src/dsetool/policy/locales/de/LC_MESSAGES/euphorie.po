@@ -831,3 +831,6 @@ msgstr "Fragen"
 
 msgid "Quick Start"
 msgstr "Schnellstart"
+
+msgid "Last update of recommendations and e-tool content"
+msgstr ""

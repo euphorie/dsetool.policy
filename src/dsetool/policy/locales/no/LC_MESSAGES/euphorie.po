@@ -841,3 +841,6 @@ msgstr "spørsmål"
 
 msgid "Quick Start"
 msgstr "Hurtigstart"
+
+msgid "Last update of recommendations and e-tool content"
+msgstr ""

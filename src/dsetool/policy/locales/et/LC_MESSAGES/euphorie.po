@@ -828,3 +828,6 @@ msgstr "küsimust"
 
 msgid "Quick Start"
 msgstr "Kiire algus"
+
+msgid "Last update of recommendations and e-tool content"
+msgstr ""

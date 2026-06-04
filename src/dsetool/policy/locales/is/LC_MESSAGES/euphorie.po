@@ -825,3 +825,6 @@ msgstr "Spurningar"
 
 msgid "Quick Start"
 msgstr "Fljótlegur"
+
+msgid "Last update of recommendations and e-tool content"
+msgstr ""
