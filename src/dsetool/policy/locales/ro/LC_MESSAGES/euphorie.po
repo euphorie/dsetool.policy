@@ -836,4 +836,4 @@ msgid "Quick Start"
 msgstr "Pornire rapidă"
 
 msgid "Last update of recommendations and e-tool content"
-msgstr ""
+msgstr "Ultima actualizare a recomandărilor și a conținutului instrumentului electronic"

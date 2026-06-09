@@ -828,4 +828,4 @@ msgid "Quick Start"
 msgstr "Hitri začetek"
 
 msgid "Last update of recommendations and e-tool content"
-msgstr ""
+msgstr "Zadnja posodobitev priporočil in vsebine e-orodja"

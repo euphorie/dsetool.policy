@@ -827,4 +827,4 @@ msgid "Quick Start"
 msgstr "Greita pradžia"
 
 msgid "Last update of recommendations and e-tool content"
-msgstr ""
+msgstr "Paskutinis rekomendacijų ir e. priemonės turinio atnaujinimas"

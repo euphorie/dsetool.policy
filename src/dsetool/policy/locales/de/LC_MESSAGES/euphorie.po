@@ -833,4 +833,4 @@ msgid "Quick Start"
 msgstr "Schnellstart"
 
 msgid "Last update of recommendations and e-tool content"
-msgstr ""
+msgstr "Letzte Aktualisierung der Empfehlungen und Inhalte des E-Tools"

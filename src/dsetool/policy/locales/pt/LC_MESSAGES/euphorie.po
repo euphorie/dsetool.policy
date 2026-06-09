@@ -839,4 +839,4 @@ msgid "Quick Start"
 msgstr "Início rápido"
 
 msgid "Last update of recommendations and e-tool content"
-msgstr ""
+msgstr "Última atualização das recomendações e do conteúdo da ferramenta eletrónica"

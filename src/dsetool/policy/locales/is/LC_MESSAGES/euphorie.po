@@ -827,4 +827,4 @@ msgid "Quick Start"
 msgstr "Fljótlegur"
 
 msgid "Last update of recommendations and e-tool content"
-msgstr ""
+msgstr "Síðasta uppfærsla á ráðleggingum og efni rafræna verkfærisins"
