@@ -41,8 +41,9 @@ class ListQuestions(BrowserView):
 
     def modified(self):
         context = self.context
-        lang = getattr(context, "language", None)
-        locale = locales.getLocale(lang)
+        language = getattr(context, "language", "en")
+        parts = language.split("-")
+        locale = locales.getLocale(*parts)
         modified_dt = context.modified().asdatetime()
         return locale.dates.getFormatter("date", "short").format(modified_dt)
 
