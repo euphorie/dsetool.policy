@@ -1,5 +1,4 @@
 from collections import defaultdict
-from euphorie.client import utils
 from plone import api
 from zope.i18n.locales import locales
 from zope.publisher.browser import BrowserView
@@ -47,7 +46,11 @@ class ListQuestions(BrowserView):
         return locale.dates.getFormatter("date", "short").format(modified_dt)
 
     def __call__(self):
-        utils.setLanguage(
-            self.request, self.context, getattr(self.context, "language", None)
-        )
+        context = self.context
+        request = self.request
+        language = getattr(context, "language", "en")
+        request["LANGUAGE"] = language
+        binding = request.get("LANGUAGE_TOOL", None)
+        if binding is not None:
+            binding.LANGUAGE = language
         return super().__call__()
