@@ -19,7 +19,7 @@
           <article class="pat-rich">
             <h1>${context/Title}</h1>
             <p>${structure: context/introduction}</p>
-            <p><strong><span i18n:translate="">Last update of recommendations and e-tool content</span>:</strong> ${view/modified}</p>
+            <p><strong><tal:i18n i18n:translate="">Last update of recommendations and e-tool content</tal:i18n>:</strong> ${view/modified}</p>
             <h2 i18n:translate="">Questions</h2>
             <ol>
               <li tal:repeat="title view/question_titles"><a href="${context/absolute_url}"
