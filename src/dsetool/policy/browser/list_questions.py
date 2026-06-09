@@ -1,5 +1,4 @@
 from collections import defaultdict
-from DateTime import DateTime
 from euphorie.client import utils
 from plone import api
 from zope.i18n.locales import locales
