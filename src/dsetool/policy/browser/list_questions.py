@@ -1,4 +1,5 @@
 from collections import defaultdict
+from dsetool.policy import utils
 from plone import api
 from zope.i18n.locales import locales
 from zope.publisher.browser import BrowserView
@@ -46,11 +47,5 @@ class ListQuestions(BrowserView):
         return locale.dates.getFormatter("date", "short").format(modified_dt)
 
     def __call__(self):
-        context = self.context
-        request = self.request
-        language = getattr(context, "language", "en")
-        request["LANGUAGE"] = language
-        binding = request.get("LANGUAGE_TOOL", None)
-        if binding is not None:
-            binding.LANGUAGE = language
+        utils.set_language(self.context, self.request)
         return super().__call__()
