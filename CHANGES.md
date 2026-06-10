@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+1.3.0 (2026-06-10)
+
+# New features:
+
+- list-questions: Add modification date ([Issue #4793](https://github.com/syslabcom/scrum/issues/4793))
+
+
 1.2.0 (2026-05-06)
 
 # New features:
