@@ -783,3 +783,6 @@ msgstr ""
 
 msgid "Quick Start"
 msgstr ""
+
+msgid "Last update of recommendations and e-tool content"
+msgstr ""

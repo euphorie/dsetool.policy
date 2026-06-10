@@ -1,5 +1,5 @@
 from base64 import b64encode
-from euphorie.client import utils
+from dsetool.policy import utils
 from euphorie.client.browser.pdf import PdfView
 from euphorie.client.browser.report import ReportInventory
 from importlib.resources import files
@@ -52,8 +52,9 @@ class RecommendationsDictionaryPDF(PdfView):
 
     def __call__(self):
         context = self.context
-        utils.setLanguage(self.request, context, getattr(context, "language", None))
-        view = api.content.get_view("recommendations-dictionary", context, self.request)
+        request = self.request
+        utils.set_language(context, request)
+        view = api.content.get_view("recommendations-dictionary", context, request)
         pdf = self.view_to_pdf(view)
         filename = f"Recommentations Dictionary - {context.title}.pdf"
 

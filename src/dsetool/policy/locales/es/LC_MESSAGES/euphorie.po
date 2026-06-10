@@ -842,3 +842,6 @@ msgstr "Preguntas"
 
 msgid "Quick Start"
 msgstr "Inicio rápido"
+
+msgid "Last update of recommendations and e-tool content"
+msgstr "Última actualización de las recomendaciones y del contenido de la herramienta electrónica"
