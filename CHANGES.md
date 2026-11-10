@@ -9,6 +9,13 @@
 
 <!-- towncrier release notes start -->
 
+2.0.0 (2026-11-10)
+
+# Internal:
+
+- Switch to collective.ftw.upgrade.
+
+
 1.3.0 (2026-06-10)
 
 # New features:
