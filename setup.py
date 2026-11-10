@@ -14,7 +14,7 @@ long_description = "\n\n".join(
 
 setup(
     name="dsetool.policy",
-    version="2.0.0",
+    version="2.0.1.dev0",
     description="DS eTool Policy package",
     long_description=long_description,
     long_description_content_type="text/markdown",
