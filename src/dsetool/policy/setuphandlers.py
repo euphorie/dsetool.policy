@@ -18,7 +18,7 @@ class HiddenProfiles(object):
             "euphorie.upgrade.content.v1",
             "euphorie.upgrade.deployment.v1",
             "euphorie.upgrade.deployment.v18",
-            "ftw.upgrade",
+            "collective.ftw.upgrade",
             "osha.oira.upgrade.v1",
             "osha.oira.upgrade.v12",
             "osha.oira.upgrade",

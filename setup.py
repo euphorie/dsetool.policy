@@ -47,6 +47,7 @@ setup(
     install_requires=[
         "setuptools",
         # -*- Extra requirements: -*-
+        "collective.ftw.upgrade",
         "osha.oira",
         "z3c.jbot",
     ],
